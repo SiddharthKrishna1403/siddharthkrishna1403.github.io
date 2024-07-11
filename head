@@ -1,0 +1,5804 @@
+commit 236b319bd73d4d38f21d308961595a197fcf4b47
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 21:59:17 2024 +0530
+
+    viewer js integration for gallery
+
+commit d3755c81bf98b1b3e04d5deb99f8ee82b07b9309
+Merge: 4eb45a4 6af46f2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:19:40 2024 +0530
+
+    Merge pull request #170 from TeamLinux01/exampleDefault
+    
+    Added a description to help with changing profile colors
+
+commit 4eb45a4aa601fa836b1317d906d41390c97654ad
+Merge: 8987e0e 08ac7bf
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:07:53 2024 +0530
+
+    Merge pull request #179 from MarekPikula/navbar-separator
+    
+    Add optional navbar separator
+
+commit 8987e0e2f6b68f88bfb120cbc7aa8704a23b2aa5
+Merge: 5b98b38 b7540c7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:06:20 2024 +0530
+
+    Merge pull request #178 from MarekPikula/configure-contact-message-rows
+    
+    Add option to specify message rows for formspree form
+
+commit 5b98b3804081e05fda3200000469b4329110c946
+Merge: 7e0a195 2c87c47
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:05:26 2024 +0530
+
+    Merge pull request #177 from MarekPikula/optional-new-tab-for-tags
+    
+    Make opening tag link in a new tab optional
+
+commit 2c87c47bb0ad313f8b82f5c272187321cf95f130
+Merge: 50ce9a0 7e0a195
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:04:14 2024 +0530
+
+    Merge branch 'master' into optional-new-tab-for-tags
+
+commit 7e0a195e99c1fcb63a898bc73492e8ecd727b5b5
+Merge: fe4aa07 07fc9f9
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:02:16 2024 +0530
+
+    Merge pull request #176 from MarekPikula/fix-custom-css
+    
+    Move custom style declaration to baseof
+
+commit fe4aa07a8e19a0093fe9dd9a3f7809a36d675e6f
+Merge: a01acae 9b5ef18
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:57:03 2024 +0530
+
+    Merge pull request #174 from MarekPikula/global-signle-socialshare
+    
+    Add option to globally disable single page social share
+
+commit a01acaed6cf46bc453162b350ce1ae91625f874b
+Merge: c1ff66b bfc0f01
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:54:41 2024 +0530
+
+    Merge pull request #173 from MarekPikula/hide-vr-without-author
+    
+    Hide vertical rule in single if no author is set
+
+commit c1ff66b3747fb91945b75d89de24a4997b7102a1
+Merge: 684a314 63ed2d7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:48:50 2024 +0530
+
+    Merge pull request #172 from MarekPikula/disable-footer-logo
+    
+    Fix logo display if no logo/favicon are set
+
+commit 684a31444ea817e3bc915b05cff59faf37483c13
+Merge: b8c83af 0a95ffa
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:47:26 2024 +0530
+
+    Merge pull request #171 from MarekPikula/hero-social-local
+    
+    Don't open hero social link if href is local
+
+commit 08ac7bf6cfeabf1be2002be22216c92e33c7483e
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Fri Jun 7 14:03:13 2024 +0200
+
+    Don't wrap navbar item text
+    
+    It prevents from separator misalignment in certain screen sizes.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 89597da9a8a86fa78d619d2711cccd3e2697b79a
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Fri Jun 7 14:01:38 2024 +0200
+
+    Fix navbar separator on mobile sizes
+    
+    Before, the separator stayed as vertical line in mobile orientation.
+    Now, it's replaced with dropdown separator (i.e., horizontal line).
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit b8c83aff4c4b3eb715e6f2ba65a51072b912cfc6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jun 4 04:16:09 2024 +0530
+
+    Update README.md
+
+commit 7b480c51ca74d7dcf89f002c87b1a779d28dd176
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 20:46:59 2024 +0200
+
+    Add optional navbar separator
+    
+    It cleanly separates the home page sections from the main menu.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit b7540c728df2bda3dc47b9bdf70fcaab0daac8d7
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 20:06:11 2024 +0200
+
+    Add option to specify message rows for formspree form
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 50ce9a0ac5029e8620d29c8dcf8d4c1c377efa71
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 19:53:40 2024 +0200
+
+    Make opening tag link in a new tab optional
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 07fc9f91ad785c6b33103d069ead424db0573429
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 19:41:23 2024 +0200
+
+    Move custom style declaration to baseof
+    
+    This ensures that custom style takes precedent over theme styles. Useful
+    when overriding theme styles for, e.g., single page.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 63ed2d74f34746fc4793edc773d62743fe8e243e
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 01:10:21 2024 +0200
+
+    Fix disabling navbar logo
+    
+    Previously, even if `navbar.showBrandLogo` was set to false, the navbar
+    logo would be shown.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 9b5ef18fd9c4497d06e8e17235731c4c4db17504
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 01:06:55 2024 +0200
+
+    Add option to globally disable single page social share
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit bfc0f01a4605663f9d228b0d399a7e78d9e82635
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:59:04 2024 +0200
+
+    Hide vertical rule in single if no author is set
+    
+    Before, even if no author was set, vertical rule was shown before the
+    date on the top of a single page.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit e36a0e76d041d3e4d0fc60e5fbdd509083700f82
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:51:39 2024 +0200
+
+    Don't show footer logo if images are not set
+    
+    Previously, an empty image was shown if neither `navbar.brandLogo` or
+    `favicon` were set.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 0a95ffa08af0f52fd47d1f82c853e16f986ed348
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:47:34 2024 +0200
+
+    Don't open hero social link if href is local
+    
+    In case link for a social icon in the hero image is set to local link
+    (e.g., "#contact"), don't open it in a new tab. It's useful if you don't
+    want to publish a link to your e-mail in clear text, and rather redirect
+    user to the contact form.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 6af46f2ae6c84371051b03b2dc40c186a1e03631
+Author: TeamLinux01 <43735175+TeamLinux01@users.noreply.github.com>
+Date:   Mon May 27 16:52:52 2024 -0400
+
+    Added a description to help with changing profile colors
+
+commit 4687d533368288e9f71d358dca30099f29535531
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 19:04:52 2024 +0530
+
+    get in touch button dynamic link support - #155
+
+commit 68eb034fdff53b719ace1ff18e95e2fb65dddaa1
+Merge: ccee3ad 9ca8c77
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 18:31:53 2024 +0530
+
+    Merge pull request #143 from aniketbhatnagar/feature/head-extensions
+    
+    Added ability to add custom content to head
+
+commit ccee3ad2dd978ec59833864f44a9702cbf0db10a
+Merge: 92ffcdb 9cfe7b3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 18:24:54 2024 +0530
+
+    Merge pull request #153 from Maverobot/master
+    
+    Add a button for sharing posts to Linkedin
+
+commit 92ffcdb0880ac211ab972d1eab336ff0f6106d9b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 15 23:34:35 2024 +0530
+
+    scrollbar and post styling update
+
+commit 9cfe7b3e7917d7793401983022135018b84c05ba
+Author: Zheng Qu <quzhengrobot@gmail.com>
+Date:   Fri Jan 12 09:08:02 2024 +0100
+
+    Add a button for sharing posts to Linkedin
+
+commit d49ebeb82b1647e3cdb2766052402303ee79641f
+Merge: 6c63323 0c56469
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Dec 24 16:12:36 2023 +0530
+
+    Merge pull request #142 from jochavez/master
+    
+    Updating gallery param to fix Internal templates
+
+commit 9ca8c778511d6ae090414630854f1b703509b732
+Author: Aniket Bhatnagar <aniket.bhatnagar@coinbase.com>
+Date:   Thu Dec 21 11:48:54 2023 +0100
+
+    Added ability to customize head
+
+commit 0c564693b306ae4fa629ef68f72a2cefa840f0fa
+Author: Jordan Castillo Chavez <jcastillochavez@rvohealth.com>
+Date:   Mon Dec 18 17:40:01 2023 -0500
+
+    update gallery layout to use new name
+    
+    updating the gallery layout to use the new param name passed from the gallery content file.
+
+commit c99e86bef797adf5c1d8c4fc602b0bb08da37087
+Author: Jordan Castillo Chavez <jcastillochavez@rvohealth.com>
+Date:   Mon Dec 18 17:38:36 2023 -0500
+
+    update gallery param name
+    
+    updating the param `images` in the gallery file.
+
+commit 6c63323612b1a43ce23665c2c961a1f2c49ba5a0
+Merge: 5124d3a c51a759
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Dec 17 11:17:10 2023 +0530
+
+    Merge pull request #140 from statictear/patch-1
+    
+    Update README.md hugo new site syntax
+
+commit c51a759b0538f45b79759b3342051f77794a4ddc
+Author: John Woodling <88202839+statictear@users.noreply.github.com>
+Date:   Wed Dec 13 10:34:38 2023 -0600
+
+    Update README.md
+    
+    updated line 43 for hugo new site with --format flag and put YAML in double quotations to align with the hugo-new-site man page
+
+commit 5124d3a0a70199bc31eb20ba704bac6987427b13
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 5 22:06:44 2023 +0530
+
+    Update FUNDING.yml
+
+commit ea0d99b932619ef5ee6ab9c8238754bebfa91f99
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 20 12:43:39 2023 +0530
+
+    Enable sticky navbar
+
+commit 70ea254099da0239185824c04adf77af33aafa7a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 19 19:57:11 2023 +0530
+
+    support for sticky navbar
+
+commit 33e37f75c0dfbbe93170c337d322578249cfd2b4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 19 17:06:32 2023 +0530
+
+    fontawesome 6 upgrade
+
+commit ff0c97fb8bcdbf8b9c7af355b449532f57b43581
+Merge: 6c98607 1824a5a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 6 15:41:51 2023 +0530
+
+    Merge pull request #137 from abelsiqueira/136-global-mathjax
+    
+    Allow mathjax to be set globally
+
+commit 1824a5a0b7f72bf5d1d255e520e17d82ea2b79fb
+Author: Abel Soares Siqueira <abel.s.siqueira@gmail.com>
+Date:   Sun Oct 29 21:00:27 2023 +0100
+
+    Allow mathjax to be set globally
+
+commit 6c986070fc7842ed9adaa45d78cc67bd29d92169
+Merge: 118e29a b4fc0a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 28 23:24:43 2023 +0530
+
+    Merge pull request #132 from Prakash4844/Center_Blog_Featured_img
+    
+    Centered Single Blog Feature Images
+
+commit b4fc0a677b8959ffcbee2d344fae2191f9727aaf
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Sat Sep 9 21:03:27 2023 +0530
+
+    - Centered Single Blog Feature Images
+    - Cleaned Garbage Commits
+
+commit 118e29a67afd049b7a720c872cbc4b9b1161c1f0
+Merge: ba95980 14f45b6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 08:00:19 2023 +0530
+
+    Merge pull request #104 from Monpoke/master
+    
+    Added custom scripts at bottom of page
+
+commit ba95980934ad0504a24af6eff59be15a3b6f3b7b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 02:23:25 2023 +0000
+
+    use dynamic path in recent posts section
+
+commit d415ceb515cf56cdf35dfa1dd5844d8bddc91dc0
+Merge: 33b52c3 95ba633
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:47:55 2023 +0530
+
+    Merge pull request #116 from mancku/patch-1
+    
+    Only creating the div if showing recent posts
+
+commit 33b52c36934dea266439ed6fac62340240d976ea
+Merge: 2515cbf 4eee340
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:39:24 2023 +0530
+
+    Merge pull request #124 from seburbandev/master
+    
+    Typo fix in README.md
+
+commit 2515cbf1daf732b9fcaaf9a284db34e7a608ca83
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 02:08:30 2023 +0000
+
+    improved achievment image support
+
+commit 762ba5228a45ffa01fccec11000b1b61ef606d8c
+Merge: 828be0d 1957ab3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:13:24 2023 +0530
+
+    Merge pull request #125 from Prakash4844/Improvement/certificates
+    
+    [Improvement] Added Optional certification/achievements image in card head.
+
+commit 1957ab34ed46506cde9599654383750af7bc495b
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Wed Jul 19 17:43:07 2023 +0530
+
+    Test
+
+commit 2e8befaeb6e2297d3de5660e4f5a569d23561cde
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Fri Jul 14 11:44:13 2023 +0530
+
+    fixed image paths
+
+commit 3a6ef471f4abf919792c5c9b2dde6e358d9c5233
+Merge: 0581d78 828be0d
+Author: Prakash <81550376+Prakash4844@users.noreply.github.com>
+Date:   Fri Jul 14 11:28:50 2023 +0530
+
+    Merge branch 'gurusabarish:master' into Improvement/certificates
+
+commit 0581d786e79cb9f45f16b2a7282761d54039af3e
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Fri Jul 14 11:28:18 2023 +0530
+
+    - Added Image in card head for certificate and badge section.
+    - Added Image param for certification in config.yaml
+
+commit 4eee34077f6d6e3f47635a8e38cbeae8207c50ce
+Author: Sebastian Urban <hello@sebastianurban.dev>
+Date:   Wed Jul 12 23:08:42 2023 +0100
+
+    Typo fix in README.md
+    
+    Corrected a typo in README.md file where command was spelt 'commend'
+
+commit 14f45b68d1dffdd692434a84f8ed5af2c719ec65
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Mon Mar 27 15:40:31 2023 +0200
+
+    Added example for customScripts
+    
+    
+    Added doc for customScripts
+
+commit 208de248e3ba19a2ccf822a502189ac36427d385
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Tue Feb 14 09:37:53 2023 +0100
+
+    added custom scripts at bottom of the page
+
+commit 95ba6334d4dbed4959966f8faf6019838777983b
+Author: Adrià López <adria.lopez.ortega@gmail.com>
+Date:   Fri Mar 24 19:16:57 2023 +0100
+
+    Only creating the div if showing recent posts
+    
+    Hi,
+    
+    I thought that it's better to avoid adding the recent-posts div to the DOM if that section is not enabled.
+    Also, I've modified the logic so that if there are no posts, it will be considered disabled instead of showing the title with no further content.
+    
+    Hope this is Ok.
+
+commit 828be0d1c04213ace8279d2d3f9f4410b2db0c51
+Merge: a36ef35 9b9e8a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:32:00 2023 +0530
+
+    Merge pull request #114 from gurusabarish/search_placeholder
+    
+    Customize search placeholder
+
+commit 9b9e8a6b844b3d5e524843e599466477747dafc4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:30:05 2023 +0530
+
+    option to customize search placeholder
+
+commit de4c1e1a5711ac8deead2f2b288d6620b4ea93a5
+Merge: 84e118a a36ef35
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:18:02 2023 +0530
+
+    Merge branch 'master' into search_placeholder
+
+commit a36ef35350f7b05e6929cbbf8477508eaa16350d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 20 07:25:23 2023 +0530
+
+    fix for #113
+
+commit 6da60eaa31bc2adb339a368811026e9353d5fd06
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 19 10:43:47 2023 +0530
+
+    fix for #108
+
+commit 84e118a7234ecb4be815918beb7b5aa9c4a2ac31
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Sun Mar 12 14:07:46 2023 -0400
+
+    fix: provide clearer placeholder for search bar
+
+commit e26564cde65d060e4e7406e8f9cde7f20cecc017
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 7 07:37:27 2023 +0530
+
+    added option to disable hero bottom image
+
+commit 2e8daeaa0d2e5a102bd4a22a2cf274bda57b101a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Feb 12 00:41:29 2023 +0530
+
+    added scroll progress bar in single page template
+
+commit edde3e112374d45d3c84a6e505f52e0038f46b32
+Merge: 98f6f9c 1286527
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 9 23:15:01 2023 +0530
+
+    Merge pull request #101 from pantera-rosa/clean-up-code
+    
+    clean up code
+
+commit 1286527ddd89f0a89909f3d9b364293850a848ee
+Author: pantera-rosa <ilonacrista@gmail.com>
+Date:   Tue Feb 7 14:05:11 2023 -0800
+
+    clean up code
+    
+    Revert "make navbar sticky"
+    
+    This reverts commit 72d40a3005eeb73872bcbf943a16ef35466bc587.
+    
+    clean up code
+    
+    make navbar sticky
+
+commit 98f6f9c223a8be3f9b3e49ceca825f114521de7e
+Merge: 03a9f1b aae2408
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:17:15 2023 +0530
+
+    Merge pull request #97 from Monpoke/master
+    
+    Adds translations for static texts
+
+commit 03a9f1b237077008350c05f7659d84c97508e9a1
+Merge: 308342e 1f28959
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:14:13 2023 +0530
+
+    Merge pull request #95 from benarmstead/round-hero-image
+    
+    Make hero image round if roundImage: true
+
+commit 308342eefcf98d5ab18cd0d6dfec0f8c82318577
+Merge: 6930cf2 62a2507
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:12:05 2023 +0530
+
+    Merge pull request #94 from benarmstead/master
+    
+    Add showBrandLogo flag to allow hiding in nav bar
+
+commit aae2408ef703d3130d667459445c566bc6aee46c
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Sun Feb 5 20:09:51 2023 +0100
+
+    Adds translations for static texts
+
+commit 1f289595f9db213661a4df00d187213f3bf46fb1
+Author: Ben Armstead <ben@benarmstead.co.uk>
+Date:   Sun Feb 5 12:05:22 2023 +0000
+
+    Make hero image round if roundImage: true
+
+commit 62a2507e19aa02737b8284661cc31fa02102d604
+Author: Ben Armstead <ben@benarmstead.co.uk>
+Date:   Sun Feb 5 11:45:13 2023 +0000
+
+    Add showBrandLogo flag to allow hiding in nav bar
+
+commit 6930cf2da2a4956fba07fe7d1816d4faa39e248d
+Merge: 4dad914 7ce2ea3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 3 00:02:06 2023 +0530
+
+    Merge pull request #91 from pantera-rosa/patch-1
+    
+    add primary-font to experience
+
+commit 7ce2ea3ae225d6cb5f4dfade8f1887c0ded4afd1
+Author: ilona <ibodnar@usc.edu>
+Date:   Tue Jan 31 23:33:51 2023 -0800
+
+    add primary-font to experience
+    
+    keeping font consistent
+
+commit 4dad914f15d33400299737872ec5a30f85e54f12
+Merge: 8e8d337 bd4225c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 12:36:56 2023 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 8e8d33799bb2742969a2a6a5a801d006c2a8a565
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 12:36:42 2023 +0530
+
+    added bootstrap js map file
+
+commit bd4225c25c80b3c00a84c29e686c8e28b808cfa8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 01:12:44 2023 +0530
+
+    Update config.yaml
+
+commit 123418edead095e25fef42bc678e1e755984b88c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 01:10:14 2023 +0530
+
+    on escape and schortcut functionality added for search
+
+commit c28b579ab6527a212f0ecf9185eb532b4a3d2bee
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 21 23:34:17 2023 +0530
+
+    window.matchMedia check
+
+commit 1d476eb2b50cc57ab75c69feafa37df290285df8
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 21 23:31:22 2023 +0530
+
+    added reading time in single page
+
+commit 07c0b9652f65044bc73e73ae180fde85cf878a73
+Merge: 9c1b16e cd85ec4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 16 20:22:27 2023 +0530
+
+    Merge pull request #88 from gurusabarish/87
+    
+     Integrate with FormSpree for submitting 'Contact me' form #87 by @dmantula
+
+commit cd85ec46cdc89db786877bbe3be711099dcf3896
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 16 20:15:05 2023 +0530
+
+    added styling
+
+commit 001841d6e68bfe32670243b6a6a825902de7b1d5
+Author: Dmytro Mantula <dmantula@icloud.com>
+Date:   Sat Jan 14 15:47:14 2023 +0100
+
+    Integrate with FormSpree for submitting 'Contact me' form
+    
+    To enable the integration, uncomment the section `params.contact.formspree` and set the `formId` value (provided by FormSpree).
+    It's recommended to change the `btnName` from "Mail me" to "Contact me" as far as visitors won't see your email address.
+    FormSpree section has preference over `email` if the both are set.
+
+commit 9c1b16ec3d1d70f1810526a6df4c4c4ee036a6ba
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 10 00:07:33 2023 +0530
+
+    Update FUNDING.yml
+
+commit a15bcb669966e531b44207ff4c388bdbb6d260bb
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 2 23:27:30 2023 +0530
+
+    Update config.yaml
+
+commit 43d6a7b95793754dc248211e495e4bfed2953885
+Merge: f411349 fcbbf92
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 22 23:44:23 2022 +0530
+
+    Merge pull request #84 from fbartels/patch-1
+    
+    Fix toggle to disable projects from the menu
+
+commit fcbbf9219b2180435d84ff3fb094bcec11f79ef1
+Author: Felix Bartels <1257835+fbartels@users.noreply.github.com>
+Date:   Wed Dec 21 17:42:37 2022 +0100
+
+    Fix toggle to disable projects from the menu
+
+commit f411349c20eaf01b6c538c5c445f09bf7ec6f03a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:25:39 2022 +0530
+
+    Update netlify.toml
+
+commit f0d7967d338cf2048492576f50d56c398e1ba401
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:10:43 2022 +0530
+
+    bux fix
+
+commit 8f90faf8dc6ede91d6092697089e8927d67c3b01
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:10:18 2022 +0530
+
+    bux fix
+
+commit 66028185e6f57d8d68d2d1a177ab079b607d29ae
+Merge: 413eb0f b74eb25
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:59:28 2022 +0530
+
+    Merge pull request #83 from artis3n/mathjax-support
+    
+    feat: add rendered math support with mathjax
+
+commit b74eb25d6a5a7b73d3bb368a0dd15dee0501a9c1
+Merge: bedb8ba 413eb0f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:56:00 2022 +0530
+
+    Merge branch 'master' into mathjax-support
+
+commit 413eb0ff300b61c53f156170a11a8b01c2d29742
+Merge: 5921485 185202f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:42:32 2022 +0530
+
+    Merge pull request #80 from artis3n/master
+    
+    feat: add optional response images with cloudinary
+
+commit bedb8ba1ca16de7836c77ad9befc25f0de92ffbf
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 9 17:06:38 2022 -0500
+
+    feat: add rendered math support with mathjax
+
+commit 185202fc81a0db1177be654b8611be1e8ffd734e
+Author: Artis3n <dev@artis3nal.com>
+Date:   Fri Dec 9 16:29:09 2022 -0500
+
+    dynamic img shouldn't have file extension
+
+commit 6da06e4755fd5cf35427da3a3ac44a38feba7516
+Author: Artis3n <dev@artis3nal.com>
+Date:   Fri Dec 9 16:26:22 2022 -0500
+
+    move dynamic-img example to rich content page
+
+commit c68ff46e738cf63354b3864b70bff032cca24dbf
+Merge: 7b38dc4 5921485
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Thu Dec 8 23:28:38 2022 -0500
+
+    Merge branch 'gurusabarish:master' into master
+
+commit 5921485a1020a41dada624777fbe4a0c7adc08b7
+Merge: 7d82664 e3f3528
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 8 00:25:42 2022 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 7d826646dccaf6e6f8b4085a389d807919bd74a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 8 00:24:54 2022 +0530
+
+    hide search scrollbar
+
+commit e3f3528262199156a091a85c1f50450ff4a6e079
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:04:51 2022 +0530
+
+    Update netlify.toml
+
+commit 6944931cddd9a8bde407856084ca1dee72595765
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:04:10 2022 +0530
+
+    Update netlify.toml
+
+commit ea22cf364b23bc0ec66a123f0902ca8b6f21e3a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:01:16 2022 +0530
+
+    Update netlify.toml
+
+commit 009f58d863c4fc68aa43baae8ac0ebbdba070bda
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 11:57:34 2022 +0530
+
+    Update config.yaml
+
+commit 63cb28aa724d9c86526764a94ca7e3f26a78db16
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 11:05:28 2022 +0530
+
+    search fix
+
+commit b783b1b224f03040127e204fa69e1999185855d5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Dec 5 17:11:52 2022 +0530
+
+    google analutics fix and implemented #82
+
+commit 7b38dc460268b425c274d8a2cf364e3ae47a00b7
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Sat Dec 3 12:44:14 2022 -0500
+
+    px is more appropriate than rem for this use case
+
+commit 2cb88d74e500ced03d4b4d649c14eff51d1f786b
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 21:17:07 2022 -0500
+
+    improve rendered image layout padding
+
+commit f457fc487478ec034e5c84ebf10d0aa78c56861e
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 21:12:33 2022 -0500
+
+    80% is a better default
+    
+    Less need for people to customize
+
+commit 6d1ebbace5244dc69706a5d39798d926412a545d
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 18:25:54 2022 -0500
+
+    use max-width instead of width
+
+commit 0d95181b634af38eda8344b4babe61de6c1f710b
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 18:05:06 2022 -0500
+
+    feat: add optional response images with cloudinary
+
+commit efc0918ad7e4d8d929e70a2c6478ad4cac99a467
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 16:39:57 2022 +0530
+
+    recent post footer border fix
+
+commit f08cc9e7366452146ac7d2d937a85469d3f1f4ff
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 16:13:41 2022 +0530
+
+    increased border size of hero image
+
+commit fdd628c9cd5df376e85fefc4f0d1b0219bc910bb
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 15:57:39 2022 +0530
+
+    image in blog summery and recent post #62, Scrollbar styling
+
+commit 6b22957c7c4c0d1250544f045f9f9b5e34e2123e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:48:31 2022 +0530
+
+    improvement in search.js
+
+commit 88afcb3b0cdf5d018d08f5db405688394c919eda
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:44:37 2022 +0530
+
+    allowed to generate json file
+
+commit 80e9a7971b401c658cac958bd2b06ac5df626493
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:39:55 2022 +0530
+
+    added search functionality
+
+commit 5a872cf17a3c262936aa944eb18a8da0b13448c2
+Merge: 143b5f6 0959b9c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 21 17:05:29 2022 +0530
+
+    Merge pull request #77 from MichalLauer/master
+    
+    Optionally open resume in a new tab
+
+commit 0959b9c3af0d86dd3ca2a185824416f20a0da02a
+Author: Michal Lauer NTBK <michal.lauer.25@gmail.com>
+Date:   Fri Sep 30 15:24:28 2022 +0200
+
+    Added option to open resume in a new tab
+
+commit 143b5f6fb3e0798bc37d3fd025ecc30905f21e92
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 27 23:56:33 2022 +0530
+
+    animate bug fix
+
+commit fb91257cfb248ccb3a3d68ef5208bae3d139fdc7
+Merge: a0b3ff5 9d51f41
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 25 22:26:12 2022 +0530
+
+    Merge pull request #74 from NishantTharani/animation-toggle
+    
+    Added animation toggle option by @NishantTharani
+
+commit 9d51f4113e5a78a4ca2570770286d7da7f768adf
+Author: Nishant Tharani <nishant.tharani@gmail.com>
+Date:   Sat Sep 17 14:19:25 2022 -0700
+
+    Added animation toggle option
+
+commit a0b3ff5ff657482e411822a2658030e445d78038
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 10 11:56:22 2022 +0530
+
+    changed experience tab cursor tp pointer
+
+commit d4a8f369284a64b2dbfba54ece946aaf7a484196
+Merge: 6b705a9 5afe994
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 2 21:52:29 2022 +0530
+
+    Merge pull request #72 from mattlathrop/bugfix/button
+    
+    Bugfix/button
+
+commit 5afe994b5ded54149f15075bba4425721a1aca72
+Author: Matt Lathrop <matthew.lathrop@contracto.tactuallabs.com>
+Date:   Thu Sep 1 18:04:00 2022 -0500
+
+    re-added heart to footer
+
+commit 77396e0037687d11f8442658826b8aba8f030f33
+Author: Matt Lathrop <matthew.lathrop@contracto.tactuallabs.com>
+Date:   Thu Sep 1 17:59:02 2022 -0500
+
+    Fix button issue on safari
+
+commit 6b705a9007e70b2b3d3ebbe83fa1a4fc502a3745
+Merge: a177362 c4012c4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 21 22:38:53 2022 +0530
+
+    Merge pull request #68 from oscareduardolp6/my-changes
+    
+    Changes in the sections names to more flexibility & in the resume button to download option
+
+commit c4012c41014544c5fa4758523d41c0969c0c9abb
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:48:02 2022 -0500
+
+    Added missing dot
+
+commit 4d6010713b7a8f55303402dcc2e641d10b1db351
+Merge: 55d38a0 325e3bc
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:34:48 2022 -0500
+
+    Merge branch 'change-names-secctions' into my-changes
+
+commit 325e3bc8ee81663d23e29be7604ff22252af38bc
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:33:16 2022 -0500
+
+    Added option to add custom titles to sections
+
+commit 55d38a0ea35151adcd1229f6ec3b7a2c348de865
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:24:03 2022 -0500
+
+    Added option to download the resume.pdf
+
+commit a17736285164e678d6480ddd876474de4aaaedf7
+Merge: db70a4b 8a62081
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 24 19:47:48 2022 +0530
+
+    Merge pull request #64 from HugoSave/first-render-time
+    
+    Improved site load time
+
+commit 8a62081fc31151c62254505da356311802b08783
+Author: hugosave <52716835+HugoSave@users.noreply.github.com>
+Date:   Sat Jul 16 18:28:24 2022 +0200
+
+    improved first content render time.
+
+commit db70a4b3881d981ec098b852e9827ae4ed15c49b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 25 23:24:55 2022 +0530
+
+    enable gallery page
+
+commit a221586545dec048547b62140045abf5c7ba7a5a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 25 23:18:39 2022 +0530
+
+    gallery support
+
+commit a534f76eff7c6846ec31385c1f86f4092ae1923c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Jun 22 19:22:34 2022 +0530
+
+    Create FUNDING.yml
+
+commit fe073530a66099b267b2fbb4a403ff09657e0e8b
+Merge: a9c44f9 f89a131
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 2 15:38:21 2022 +0530
+
+    Merge pull request #59 from gurusabarish/multipage
+    
+    Added about page and dropdowm z-index fixed
+
+commit f89a131319fb42645c89efd3decb531eb72c491c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun May 8 12:01:21 2022 +0530
+
+    Added about page and dropdowm z-index fixed
+
+commit a9c44f9ead93060186ce1f17d485e45fe89ef88e
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 30 17:17:53 2022 +0530
+
+    Update config.yaml
+
+commit 77c7aa67635b91d959b0e6e0392a9c7ff4ee67ba
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Apr 27 17:46:52 2022 +0530
+
+    hero min-height update
+
+commit 1c8d314c3d4fefdd723b394c1c0e36ffd2b05f02
+Merge: f5b9c67 dc2b748
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 9 17:19:10 2022 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit f5b9c6728a1b4be9b9f14c9619e5794b4811248d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 9 17:07:17 2022 +0530
+
+    fix for #55
+
+commit dc2b7487ed5263b695557c64cc82fd05657d45d5
+Merge: 6d6f5f0 669f25f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Apr 4 10:06:42 2022 +0530
+
+    Merge pull request #52 from sonic182/master
+    
+    Statics param, and optional GPA by @sonic182
+
+commit 669f25fc751ee3f6e9ea73ef3d6f8a7a348fa8c8
+Author: sonic182 <johander1822@gmail.com>
+Date:   Sun Apr 3 22:59:39 2022 +0200
+
+    all files with StaticPath instead of Statics
+
+commit 6d6f5f0230617ff02f09a283acada6eae778b71c
+Merge: ebaf9cf 837da91
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 3 12:20:58 2022 +0530
+
+    Merge pull request #53 from sudomateo/sudomateo/fix-header
+    
+    Properly toggle Projects link in header by @sudomateo
+
+commit 837da918a7de0b7df0cc793d9fe681d6129c787d
+Author: Matthew Sanabria <24284972+sudomateo@users.noreply.github.com>
+Date:   Sat Apr 2 23:59:10 2022 -0400
+
+    Properly toggle Projects link in header
+
+commit 33b0f43282f4fd449ba3bb9c94836cc8e551e114
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 2 23:35:22 2022 +0530
+
+    Added `ststic` in missed files and renamed to `staticPath`
+    
+    - Added `statics` params in the missed files
+    - Renamed `statics` to `staticPath`
+
+commit fd19e4981bea9aa61a2fe6a5c5ceeb80bd49f749
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 23:28:13 2022 +0200
+
+    fix another link...
+
+commit d19515cf851c83c2e37f2aaa3c2fd64ed19afa14
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 22:47:49 2022 +0200
+
+    removed console log
+
+commit 066b43522611a7660e484ce736b0eac28fd2ad1b
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 22:45:54 2022 +0200
+
+    more fixes theme
+
+commit b10f02eee9af6f6e9dc79218a22134c60cf40a6b
+Author: sonic182 <johander1822@gmail.com>
+Date:   Wed Mar 30 07:51:07 2022 +0200
+
+    optional GPA
+
+commit 20580ecfcec02cf7b209be23c4bf84f2ef9c3af1
+Author: sonic182 <johander1822@gmail.com>
+Date:   Tue Mar 29 23:34:46 2022 +0200
+
+    static param
+
+commit ebaf9cf5b331ea81681caa1a4f9e13665ebf797a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:57:07 2022 +0530
+
+    Update README.md
+
+commit a995c599af4e5f09838f65fe877f5d7c87a09f93
+Merge: 00c24c1 6c015a7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:54:03 2022 +0530
+
+    Merge pull request #47 from gurusabarish/v3-stable
+    
+    V4 stable
+
+commit 6c015a7203ec6391915927be064a24a34c10f9bf
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:12:55 2022 +0530
+
+    V4
+
+commit 708d0a0022e83812af55dd5d80deed8873f82a43
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Mar 24 18:42:53 2022 +0530
+
+    docs
+
+commit 47bde42590410bfb151c4732da8129e1a9483e36
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 23 07:02:07 2022 +0530
+
+    404 page
+
+commit e3fb3dc6beb3546003ad183e39e7d72fca1ede70
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 23 06:04:01 2022 +0530
+
+    hero animations
+
+commit b611c5f102fa22a975663bd3f8a7c40bbcd04dce
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 21 10:44:07 2022 +0530
+
+    hero page modification
+
+commit 05e453ad8311189c8f5eae553c60dce0d0a97d31
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 4 16:46:32 2022 +0530
+
+    darkmode auto, light, dark
+
+commit 47f9d64515dccaded68b0e0c711a03667be6ab3c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Mar 3 22:33:40 2022 +0530
+
+    single page
+
+commit 7e3632490bb66a7d1a2da74408279de5b4cf3e41
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 1 11:47:51 2022 +0530
+
+    index page
+
+commit 54ecbb65c432558fc4a2df75f18aab6a16805f87
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 28 19:28:45 2022 +0530
+
+    Added education in home
+
+commit f8eb6d0646478bc739fc1a1def86ea962a37f735
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 24 22:14:28 2022 +0530
+
+    Added experience in home
+
+commit c353714c7ee41d3a3ea8b4c7f848b09c05debadf
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 19 14:06:12 2022 +0530
+
+    updated hero and about
+
+commit 9a680fae4863667260d489aa6502bde4a30118d2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 19 14:05:24 2022 +0530
+
+    updated hero and about
+
+commit febc7020ded644a746406e43ac1779f95a303d52
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 18 23:30:27 2022 +0530
+
+    added about in home page
+
+commit f73e4bf20d97b0171f78ae9edf5fec2c1a2bf0dd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 17 22:45:51 2022 +0530
+
+    added hero page
+
+commit 006bf5abcd35b6ad85ef0836bdd05896d9f68198
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Feb 13 11:26:08 2022 +0530
+
+    added projects,contact in home and added list page for project
+
+commit a8ec5d338841d2d8b2e9cd324290ca421722bcc9
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 11 19:07:51 2022 +0530
+
+    added achievements
+
+commit 5bd29d2582bb8451a98932b85417884c2e4f033a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 19:33:39 2022 +0530
+
+    netlify build fix
+
+commit 522dfcc07dd894f8ae001307a17a5d91158ff8e0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 19:23:13 2022 +0530
+
+    added list page
+
+commit 4a905a3285860c535711c6ceb828d3182ba95d1c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 13:55:57 2022 +0530
+
+    added footer
+
+commit 864259fa6ff077900dbb338787330c335a60b7d2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 5 10:46:29 2022 +0530
+
+    Update netlify.toml
+
+commit e31444f76be897c88cc23c37f26a4975568dab8f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 5 10:34:48 2022 +0530
+
+    initial V3-stable
+
+commit 00c24c1e15e6c6e6a9d1b8b31a0df16630548574
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 31 18:49:26 2022 +0530
+
+    Update deploy.yml
+
+commit c7697d47513c2c997961179a15140a8ed62f7273
+Merge: aeec9ef d159cfb
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 31 18:46:14 2022 +0530
+
+    Merge pull request #46 from gurusabarish/dropdown-v3
+    
+    dropdown v3 #44
+
+commit d159cfb59462feffc775440f014c6d3c30bae5be
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Jan 26 17:33:09 2022 +0530
+
+    dropdown v3 #44
+
+commit aeec9ef74fe73be9bf57dd3b01efc61042435193
+Merge: a1a2264 9ab6341
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:35:54 2022 +0530
+
+    Merge pull request #45 from gurusabarish/auto-darkmode-fix
+    
+    Auto darkmode fix for #37 by @lr1980
+
+commit 9ab6341fe4b6e6d663b2186260460773ae316092
+Merge: bbcf135 a1a2264
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:16:18 2022 +0530
+
+    Merge branch 'master' into auto-darkmode-fix
+
+commit bbcf135e1737bed612159361fde439ad45fc3675
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:08:26 2022 +0530
+
+    Auto darkmode fix
+
+commit 5cc0bc0a4662a83fc2092ba70257ccbd59e201a7
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 18:46:30 2022 +0100
+
+    add darkmode cookie
+
+commit d85e48916ffd9dcb89b4fe122003df3df613f138
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 17:33:36 2022 +0100
+
+    outsource auto dark mode javascript into own js file
+
+commit 57066e92a650036b5ab2918c28dc1bae9c073c32
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 17:23:09 2022 +0100
+
+    add auto dark mode to baseof html
+
+commit a1a2264e6bb81102b297e9e1838d4777f9460c97
+Merge: 0d554f3 fbb4848
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jan 13 08:30:47 2022 +0530
+
+    Merge pull request #40 from abe-101/master
+    
+    view changes locally when deploying on github
+    by @abe-101
+
+commit fbb48487c7c87d03d7e4d6f95234b95b14134300
+Author: Abe <abe@habet.dev>
+Date:   Wed Jan 12 15:57:58 2022 -0500
+
+    github deployment add CNAME for personal domain
+
+commit 9450f6205bc53956a72488a8ec1f6c49d5df818d
+Author: Abe <abe@habet.dev>
+Date:   Wed Jan 12 13:26:07 2022 -0500
+
+    view changes locally when deploying on github
+
+commit 0d554f32d3cf525b3d26e6c947015b28af485491
+Merge: 49aca12 0a73216
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:31:22 2021 +0530
+
+    Merge pull request #35 from lr1980/remove-resume-pdf
+    
+    remove unnecessary resume.pdf from static by @lr1980
+
+commit 49aca12e81fc083d456a29056981143210798743
+Merge: c864dae 18fdbfd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:14:53 2021 +0530
+
+    Merge pull request #36 from lr1980/markdownify-contact-content
+    
+    emojify and markdownify contact content By @lr1980
+
+commit c864dae946622dd01ab49520b2ec3e64622fc0d9
+Merge: e3ef99c be5a5bf
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:09:41 2021 +0530
+
+    Merge pull request #34 from lr1980/fix-static-text
+    
+    Fix static text by @lr1980
+
+commit e3ef99ca400fd2c36db7f2eadb13358d71f73c95
+Merge: f279e15 60893fd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 21:50:42 2021 +0530
+
+    Merge pull request #33 from lr1980/fix-bootstrap-map-warning
+    
+    added bootstrap js map because of browser error by @lr1980
+
+commit 6aae5908fd3df429d9dfde4753d7cd9eb640772e
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Wed Dec 29 18:40:23 2021 +0100
+
+    set automatically dark mode
+
+commit 18fdbfd352a602aa6fd6fe75bcb160a03f67405a
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:08:19 2021 +0100
+
+    emojify and markdownify contact content
+
+commit 0a73216880767cb54d43ae275f1dafb9160da926
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:05:32 2021 +0100
+
+    remove unnecessary resume.pdf
+
+commit be5a5bf6bec2add14dcba519a8516c86dde0a79f
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:07:18 2021 +0100
+
+    add variable for "get in touch" text
+
+commit 28e5d1b6e79e0de859504661906d1a52ebd80ec4
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:07:43 2021 +0100
+
+    add variable for "Hi there, I'm" text
+
+commit 60893fd3806453c4c194ad237f0d359f14f06373
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 18:03:41 2021 +0100
+
+    add bootstrap js map because of browser warnings
+
+commit f279e15318144b36f695c73f90cbf277442743f6
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Dec 13 18:14:43 2021 +0530
+
+    Custom icons #30, #31
+
+commit a39edbe3531e137ad7ae3c328b28f46a97571ae7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 19 00:32:02 2021 +0530
+
+    #27
+
+commit 01c7caee0437835a8b506eabdeaa150be613983a
+Merge: d57b67b 72462e7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 5 21:06:11 2021 +0530
+
+    Merge pull request #28 from emze9/add-gitlab-icon
+    
+    add gitlab icon in V3
+    made by @emze9
+
+commit 72462e7cdb70113c3adcac56fc30a6c121331c26
+Author: Emile <emile2114@gmail.com>
+Date:   Thu Nov 4 13:13:51 2021 +0100
+
+    add gitlab icon
+
+commit d57b67b1c3ef26f1828b09a72b864a2bb16cc69e
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 25 18:41:22 2021 +0530
+
+    Update README.md
+
+commit e79a208a50140e48791012b60b3a234fdca1edc5
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 20 23:47:06 2021 +0530
+
+    Create stale.yml
+
+commit c6d520c6e748c22a77778d24d8850e04c70f6afd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 20 23:29:27 2021 +0530
+
+    #24
+
+commit 1f867d7f285669ec47180be5ba5a4780c95db831
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 7 10:22:13 2021 +0530
+
+    credit link replacement
+
+commit 49b2f8caefbd9bac6ff11a564e82673d42a5ff8f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 6 09:04:59 2021 +0530
+
+    change domain name
+
+commit 8de0ea7061040f96c43b21b8904a1729e85a6246
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 2 19:23:38 2021 +0530
+
+    Delete greetings.yml
+
+commit 75e1af431cb8c9d034f12b754ed971642c7a605c
+Merge: e28c89f ad8d0d7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 15 23:25:38 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit e28c89f69ff5b2f442e4547586595e287b7b6ced
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 15 23:19:56 2021 +0530
+
+    fixed  #23
+
+commit ad8d0d72516a650041d4b6f95741db598b5c0ac4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 15:51:29 2021 +0530
+
+    added google analytics for v3
+
+commit fa3cbbe11760cab34cb374e1e25e1cffd88cb08c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 15:49:17 2021 +0530
+
+    analytics removed from v3
+
+commit 87cf77e05ee03897ee80840a5d27ceab5fdd0de9
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 11:49:26 2021 +0530
+
+    Delete README.md
+
+commit b06f75c647dff27e11892547bb66e3853bd4485d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Aug 11 10:26:51 2021 +0530
+
+    Update config.yaml
+
+commit 5456f5a34fb4f73a3488954b7bef8eb00f11afae
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 17:33:56 2021 +0530
+
+    Delete stale.yml
+
+commit fa91d1cdc171456ce40066791b389bb9c0385139
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 17:27:53 2021 +0530
+
+    Update README.md
+
+commit 1f74ee3a66cc86256c81557528c235c7894f93b1
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:06:16 2021 +0530
+
+    Delete FUNDING.yml
+
+commit e2625a0568315bf5701ce0cd90ba9d440223eb1c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:05:49 2021 +0530
+
+    Delete stale.yml
+
+commit 222e8b5b3f591e2becdda1d36f42c61f2aa06bcc
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:05:15 2021 +0530
+
+    Create stale.yml
+
+commit e25bbeba95c7cfc820a7dbb4af127a5b4a641543
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:01:31 2021 +0530
+
+    Create stale.yml
+
+commit 3ae63007137263282ed93cbde9b425708e773ed7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:58:18 2021 +0530
+
+    Update README.md
+
+commit 207d5cc950fce3243dfdb74451afcc3e3f2af1fc
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:52:32 2021 +0530
+
+    Update README.md
+
+commit 325a2227cf98cfc017420fc13b009f199da95a0b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:36:00 2021 +0530
+
+    github pages fix
+
+commit 7d821860255b42370230b1150a2f33acd70132ee
+Merge: 47bc00e 76ed50f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:32:11 2021 +0530
+
+    Merge pull request #22 from gurusabarish/github-pages-setup
+    
+    GitHub pages setup
+
+commit 76ed50fbee9e339245957e681ac689d9ee1e1375
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:31:10 2021 +0530
+
+    Update config.yaml
+
+commit 80306f9034f98a5fff7687a9812f71421e682a0b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:29:04 2021 +0530
+
+    Update config.yaml
+
+commit c5de833cc69c58eff0e5e220881bcf6c6db0b7f8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:26:25 2021 +0530
+
+    test github pages with version 1
+
+commit ab6306c257530f21a4dcdf3a8c2ccfa3e0c9e218
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:23:38 2021 +0530
+
+    testing github pages with version 2
+
+commit 2226c6c5f0b7e472cb720d8cf29cb070ab4a5260
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:15:39 2021 +0530
+
+    github pages setup
+
+commit 47bc00e9d4b86cbb0f7a2c45f21f93f848800566
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 22:56:54 2021 +0530
+
+    Update config.yaml
+
+commit e6a364c6d1b7804128f649c775546ee2443ca1e1
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 22:50:01 2021 +0530
+
+    github demo page V3
+
+commit b1508e9f5d99a0abffe4d0cbb2214c53ca9429b0
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:10:30 2021 +0530
+
+    Delete autoapprove.yml
+
+commit a0fb32a23b7591ede5dbd63256e9ca245207979c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:10:08 2021 +0530
+
+    Update issue templates
+
+commit ef131eaa719ebb96f06f713cee968edb9b6d9627
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:05:22 2021 +0530
+
+    Update theme.toml
+
+commit 562177b306c107f893af00c35059108223db02af
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:03:00 2021 +0530
+
+    Update README.md
+
+commit 2afd1c83050d904a331ec2d504b06d8aa921ddbc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jul 31 12:52:44 2021 +0530
+
+    Font change social share
+
+commit 1798378ead10804234b397916082d0dcc472d5cd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jul 29 19:59:29 2021 +0530
+
+    Update footer.html
+
+commit 2b8c9f61d26984d81fa1c38bbe0bbe5934403cf2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 10:19:10 2021 +0530
+
+    Update README.md
+
+commit f84180aa9f6f97fd7866d9b71aff89edf941de60
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:41:35 2021 +0530
+
+    Update README.md
+
+commit c05dffd26c3cfec8041dd3e0a84636cfb7c1568b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:41:01 2021 +0530
+
+    Delete _config.yml
+
+commit 71c0a1357b4526992d6a441e1fca594b47d6a489
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:37:43 2021 +0530
+
+    Set theme jekyll-theme-cayman
+
+commit 595d31005ee16dcb7a92efdb6bf368cff5b6bab0
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:35:17 2021 +0530
+
+    Create README.md
+
+commit 88b04bda730d702ab83f739711e40d375b4f465d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:33:54 2021 +0530
+
+    Update README.md
+
+commit 9d6f6f7877d96d39c30b1c7779c6870d69b7d9d8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:25:11 2021 +0530
+
+    footer card spacing fix
+
+commit 6bbe6e4deceb160f2f557155197fdb204c5b6f05
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:23:22 2021 +0530
+
+    Update footer.html
+
+commit bcc7661125953324a329906af12b0c143d40c4ae
+Merge: 909e032 5d6c329
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:20:25 2021 +0530
+
+    netlify build fix
+
+commit 909e0323e0a3d77c638dcc6d8a38b839de524e92
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:14:26 2021 +0530
+
+    netlify build fix
+
+commit 5d6c329fabd3432632c5bcffba3a27f080bcc228
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:05:04 2021 +0530
+
+    build bug fix
+
+commit 93dda15903302b9c04e3f9d1ce2b3966b072d409
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:02:09 2021 +0530
+
+    Update achievements.html
+
+commit d40993214ff7463badad6d90d4e453c18d19409f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 00:58:31 2021 +0530
+
+    Update index.html
+
+commit 2a24836a2e9baccca5d24661c44693ca0d19a6dc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 00:44:53 2021 +0530
+
+    extra colors, 404 fix and some more
+
+commit fb8a760319301ba3f043f767efee3af58508c906
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 13 11:33:40 2021 +0530
+
+    Update README.md
+
+commit 5f47f9ecd5c6bccb17b4abf4fdc3c3658d0b17f5
+Merge: d5a7d34 6c37637
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 22:08:40 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit d5a7d34f2859bc14bdbb8dd1f4a44eef581965c2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 22:08:04 2021 +0530
+
+    added theme option in configuration
+
+commit 6c376376eb505a739ba93694cc9bc4ae5087e018
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 12:03:52 2021 +0530
+
+    Update README.md
+
+commit c9716d9a7341c8f781c29523d4dfcbee6acb5cac
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:41:28 2021 +0530
+
+    Update README.md
+
+commit 512a26e36e5844755ed49ac4dca2792320024c10
+Merge: 43d8d0a ac7a79f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:33:10 2021 +0530
+
+    Merge pull request #19 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 43d8d0a0950a2a8a363c19f993d76bc9bbed42b3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:32:25 2021 +0530
+
+    Update LICENSE
+
+commit 75f6b7acfca0c087c75c750e6b07064b4c10c012
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jul 5 23:39:29 2021 +0530
+
+    theme file update
+
+commit ac7a79f0afbab7f4d40ccb45cd578ef254ae3368
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jul 5 17:55:58 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 242.84kb -> 213.32kb (12.16%)
+    
+    /images/tn.png -- 75.84kb -> 65.88kb (13.14%)
+    /images/screenshot.png -- 167.00kb -> 147.44kb (11.71%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit 5f8661643cd01ec97752f838e6746ed605d72d62
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jul 5 23:24:47 2021 +0530
+
+    new tn and screenshot
+
+commit 2c58f2e15fde011aaa0158e9d8f01787693c3c3d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 26 08:32:16 2021 +0530
+
+    Update config.yaml
+
+commit 5b5936c31dfe1c41c462706102a3d0cf85ea4d4f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 26 08:22:34 2021 +0530
+
+    Removed example site and added some content in website
+
+commit 5475e10ef1b1dfd3bd5190334498350e952404cc
+Merge: d4e24e2 00ea239
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 21:58:59 2021 +0530
+
+    Merge pull request #18 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 00ea2392242c6fe75921c281ff7043e55b0a8776
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jun 21 16:24:52 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 2,653.13kb -> 2,524.57kb (4.85%)
+    
+    /images/v2-demo.png -- 105.51kb -> 89.40kb (15.27%)
+    /images/v1-demo.png -- 224.16kb -> 190.78kb (14.89%)
+    /images/v3-demo.png -- 556.04kb -> 497.06kb (10.61%)
+    /static/webfonts/fa-regular-400.svg -- 141.32kb -> 139.15kb (1.54%)
+    /static/webfonts/fa-solid-900.svg -- 896.07kb -> 883.93kb (1.35%)
+    /static/webfonts/fa-brands-400.svg -- 730.02kb -> 724.26kb (0.79%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit d4e24e2634d00601d68fbd5b4fb81026ccacc3c8
+Merge: 51e118a 60767ed
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 21:54:19 2021 +0530
+
+    Merge pull request #17 from gurusabarish/dev
+    
+    Dev
+
+commit 60767edc93f08a24cee306842d06ffa41e6dae19
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 15:34:43 2021 +0530
+
+    dark mode
+
+commit fd2b79bc9865a222b6ff252a2bafa496ddb25ed2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 22:00:17 2021 +0530
+
+    darkmode initial commit
+
+commit 758e0f7ad24f7d96b9d6d1f5bac4c102768ff69a
+Merge: a5a500b 51e118a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 11:25:49 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit a5a500ba9164331384f0ed98226adce87070527b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 11:25:30 2021 +0530
+
+    v3 light theme
+
+commit 51e118aa42781b6795d601b183c3725bba24510b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:42:09 2021 +0530
+
+    Create autoapprove.yml
+
+commit ea88b4e633186ffb194704e9a2b299bc231bf2c4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:33:32 2021 +0530
+
+    Create greetings.yml
+
+commit f364a2a16c34bbeaf117d1fb38708ad2e45a4b5d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:23:37 2021 +0530
+
+    Delete .mergify.yml
+
+commit 43366861bdab14387a9e63f8dedfd26208fa1370
+Merge: 081014d e44df55
+Author: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>
+Date:   Mon Jun 14 05:46:24 2021 +0000
+
+    Merge pull request #15 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 081014d43df9246bfe476a14af5bca10272cb5ef
+Merge: c42245a 48dacec
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:13:43 2021 +0530
+
+    Merge pull request #16 from gurusabarish/mergify/gurusabarish/config-update
+    
+    Mergify: configuration update
+
+commit 48dacecaf416a6517803d595e5ad308cb1f9ef78
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:12:45 2021 +0530
+
+    Mergify: configuration update
+
+commit c42245ab74c03b170fd7ca1fa2d70b2e3cab0d2b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 10:55:29 2021 +0530
+
+    Update README.md
+
+commit e44df5562259c8e4132e5bc835afd71aef42cff9
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jun 14 05:19:33 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 988.21kb -> 893.26kb (9.61%)
+    
+    /images/tn.png -- 139.04kb -> 122.04kb (12.23%)
+    /images/screenshot.png -- 312.43kb -> 274.73kb (12.07%)
+    /exampleSite/static/images/project.jpg -- 268.37kb -> 248.25kb (7.5%)
+    /netlifysite/static/images/project.jpg -- 268.37kb -> 248.25kb (7.5%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit dc4988ce80ee1e7d729e2ed0eb93603cd6925ffe
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 01:27:39 2021 +0530
+
+    Update README.md
+
+commit 9ef2450335638d0064c22138647b8f9004fac574
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 00:54:58 2021 +0530
+
+    demos
+
+commit e29b979d57e728708e20bcc5ebf32141bcc2341a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 00:51:00 2021 +0530
+
+    demos
+
+commit 05404689aa0d60ee8458ab0779cc107bb65cffb4
+Merge: 14d1648 69091d3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jun 13 23:37:31 2021 +0530
+
+    Merge pull request #14 from gurusabarish/development
+    
+    v3 upgrade
+
+commit 69091d3c6a96368d1d153e147522f3bdfb72324d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jun 13 23:31:04 2021 +0530
+
+    V3
+
+commit 9b47e835d41f511f648ca4c465ec96433aa88c5d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 12 23:49:09 2021 +0530
+
+    basic single page
+
+commit 0cf404308ffa998c7126788897719f65a41aa466
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jun 8 16:16:14 2021 +0530
+
+    list view
+
+commit 6fb96c3864fc67b5f1e999d1796e3c460865f9a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 5 11:49:11 2021 +0530
+
+    demo web for all vertions
+
+commit a856084d349b6daa1d9fd7d043e61561a0df83d2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 5 11:47:40 2021 +0530
+
+    demo web for all vertions
+
+commit 0d77e9d032256c337c5f4315868442ce1a39b211
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Jun 4 19:29:24 2021 +0530
+
+    loading icon on page loading
+
+commit 63454f7c314e53c634b2cf62cc5b487b236f1918
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 3 14:13:19 2021 +0530
+
+    on scroll reveal
+
+commit e7426eb34add7106fe7d9633921a51d55f355619
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon May 17 12:10:06 2021 +0530
+
+    contact :sparkles:
+
+commit 54bcff5142899bc481af5787d6c2989c2d2433dd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu May 13 22:48:06 2021 +0530
+
+    v3 development
+
+commit 14d16483beacae76f067e0cb9a501e5abea701ef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Apr 15 15:50:45 2021 +0530
+
+    Update config.yaml
+
+commit 53660d85fc6ddfc18b628236f3b0b783634c2264
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Apr 8 22:54:46 2021 +0530
+
+    remove about in navbar
+
+commit d01692063b11d3ea2aeb314540011d05473d7028
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 09:23:27 2021 +0530
+
+    added exampleSite
+
+commit 816afa6e683a2eea9d6a3ec12addf4a908c0ba1a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:30:30 2021 +0530
+
+    added blog content and readme update
+
+commit a538686d650d20b2b2387d25e47db54f955a7702
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:29:27 2021 +0530
+
+    added blog content and readme update
+
+commit 4fee8dbb83fb3c732e78dbb8fb2abc07d5507183
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:18:55 2021 +0530
+
+    removed example site and fixed the recent post height
+
+commit 31ca80f69490adfc291f2edb63a94f84f1803c04
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 3 11:39:59 2021 +0530
+
+    added hyperlink in things-i-do and markdown support in description
+
+commit 679ae1b1a087a35787ce8d6c465a7255537449f3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 3 00:40:10 2021 +0530
+
+    added social icons in top and table of centents in blog
+
+commit 17bd78c171cbfd8ac014febaf4332934b8140f46
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 20:41:59 2021 +0530
+
+    updated the config file
+
+commit 5cf6c5474b942bed4a4e2149dfda1aab88d796a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 20:38:32 2021 +0530
+
+    Seperate netlify site
+
+commit 076e47e6124759560a71d4c70a54346b1ccccf87
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 19:53:29 2021 +0530
+
+    custom resume button name
+
+commit 4aa090c4569979f3a9a1a494ef23c2f915dc1a74
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 18:48:02 2021 +0530
+
+    tweet button and recent posts remove option
+
+commit c5578135fe3aff7ee5f10a0f520348f96d82ca2a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 08:06:58 2021 +0530
+
+    404 page update
+
+commit 16685c012122d2e1fb1314d244ce348dff7bf749
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 07:56:31 2021 +0530
+
+    netlify deployment
+
+commit c29489775b2bd7d3932d59fdaa0e7e6d7487fbc0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 07:43:47 2021 +0530
+
+    netlify deployment
+
+commit 252ec5277fe19673714f444791d8ec52cdb6f363
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 16 20:15:17 2021 +0530
+
+    theme.toml update
+
+commit 6cd2d850860d1170096a80c4a63471a36a1bec5a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 16 20:07:32 2021 +0530
+
+    readme update
+
+commit 98ca5e1afab7c573db8101ff7ec5fe1ec9bc0bae
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 15 13:10:58 2021 +0530
+
+    blog post mobile view update
+
+commit a19418481da555085082ad72f3429496514c080a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 22:39:38 2021 +0530
+
+    blog style update
+
+commit ea8fabe68e29215542f63aaebfdc539f3cf305db
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 01:46:40 2021 +0530
+
+    authour and date icon update
+
+commit bdfa43b9c18085b4c52c4c43d33395c109a3be0b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 01:32:57 2021 +0530
+
+    version 2.10
+
+commit 49ed7008b886fdf9d4c03d21222ed8f327c1df07
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 23 09:54:42 2021 +0530
+
+    blog layout update
+
+commit 40aa344d36178a561cd9a7a6ef93f4e941f840ae
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Dec 26 11:59:50 2020 +0530
+
+    Update config.yaml
+
+commit d587080f991668a194395b5026a76de0de3751b4
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Nov 27 20:44:50 2020 +0530
+
+    Update footer.html
+
+commit c18d6a1fd9b3a84fe40a58948a7ed2a25b91ef74
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 27 20:38:13 2020 +0530
+
+    setup fontawesome, footer update
+
+commit 1f9957e1a92c894700830ca9ec557dcc540ffecd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Nov 7 11:01:32 2020 +0530
+
+    Update config.yaml
+
+commit 96a810d755a888e1bb1f3dc4090ce2af1d43279b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 29 22:42:28 2020 +0530
+
+    Update config.yaml
+
+commit 97029e59e628d01371c563485b0e3bf0d8d1c8db
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Tue Oct 27 11:22:37 2020 +0530
+
+    Update README.md
+
+commit 3ac0329f71c6da6b8b6eb03b74ab0989c8eb971f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 23:11:53 2020 +0530
+
+    Navbar and Breadcrumbs URL fix
+
+commit 4ecce560550f7b67be87bcefa4fb8b8593ac412f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 20:35:34 2020 +0530
+
+    Update README.md
+
+commit 544bfb587d9e234a4b66b634e6a6edef2395eb46
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 09:56:35 2020 +0530
+
+    website look and description
+
+commit 4c185424bded5945587d4c3535281a420c37db76
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 23:30:15 2020 +0530
+
+    update
+
+commit 65f21f3f57a6cd6b8ef7884a2d02e6b63434ae80
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:57:47 2020 +0530
+
+    Delete main.yml
+
+commit 71861099bf1a2d1b8a0a6aea5ea6e80d02b35dfa
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:44:55 2020 +0530
+
+    Update main.yml
+
+commit 607e9c5d42dc05baa2db3de2a3f400bf4b5cac29
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:26:16 2020 +0530
+
+    Update main.yml
+
+commit 1aa68791d728968a3c2b9826a1d4600c552f607d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:24:46 2020 +0530
+
+    Update main.yml
+
+commit 345341dd3bb36d283291603c4aa1a834816b1478
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:19:26 2020 +0530
+
+    Update and rename hugo.yml to main.yml
+
+commit 037ec98b51ee6f789f41ca13c0a5855b511c3fac
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:00:57 2020 +0530
+
+    Create hugo.yml
+
+commit 6d50a08863a04f310826c13e048303352c3183e7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:20:42 2020 +0530
+
+    Update README.md
+
+commit f8a436d5c330e2649e1c16607ebdd270f7defda9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:14:33 2020 +0530
+
+    Update config.yaml
+
+commit 1b839c8803f45fb537656d947f0da11c812012af
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:05:29 2020 +0530
+
+    Create netlify.toml
+
+commit e533f2343b9ad6ba60d6e14bd1e69d3f2db4fda5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:01:41 2020 +0530
+
+    update
+
+commit ecbb186f721ebdeb3ebcaed85507239c7a3f1f67
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Oct 21 12:28:33 2020 +0530
+
+    Update theme.toml
+
+commit 9d0a34a1b8fa3c15e2748fb1457f4c0c8925ac1b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 23:14:23 2020 +0530
+
+    Create .gitignore
+
+commit 5a26fe98e02171f91a93ed936e3db3938441578a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 23:10:15 2020 +0530
+
+    to get a basic
+
+commit f83ec679dad39c784b40b60ebe5b34e030a673d1
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 07:57:40 2020 +0530
+
+    Update README.md
+
+commit 0c415f9fccfaa9c040fc7a9a633ba2a7c699f9d7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 22:37:37 2020 +0530
+
+    Update README.md
+
+commit 56494102bdd1e2f4a657c28f374a4e18b6d1dd17
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 22:35:46 2020 +0530
+
+    Update README.md
+
+commit 2f8bff817cd2ce28750260faa198f02a8d6301b9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 10:54:27 2020 +0530
+
+    Update README.md
+
+commit 1ad442ec6799ea286a31d80ead304ee24bfcb11f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 10:40:09 2020 +0530
+
+    Update README.md
+
+commit f1cda0d4e7728296973b32385bc01069645288aa
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 19:16:43 2020 +0530
+
+    Update README.md
+
+commit e0d6e36e14ada6eb775d96eba782730b8a81c607
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 15:43:31 2020 +0530
+
+    line2 bug fix
+
+commit 748a8e63b246dcff8f5d781e79490ac4beea016a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 14:50:36 2020 +0530
+
+    Update README.md
+
+commit 01f30297bde12de51603b520ae8f901721ca8677
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 14:46:49 2020 +0530
+
+    Update README.md
+
+commit 3eec48770f3142cea08c54cbd12c2dc22668ddef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 10:47:02 2020 +0530
+
+    Update README.md
+
+commit 38e622a8c36ec7b19e0731fc6266fd19b0e1724d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 10:36:59 2020 +0530
+
+    Update README.md
+
+commit 5af2b5a1b2a5bfe9fcd9891fde5980deabe5a48a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:05:51 2020 +0530
+
+    Update theme.toml
+
+commit c4d547c72840a674aac708d57844c8c09ea1a2e0
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:03:51 2020 +0530
+
+    Update README.md
+
+commit 272538234838305767912d7b9d77ae3cd49e3c3d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:02:56 2020 +0530
+
+    Update README.md
+
+commit 8a2ff2bdce6c73714a6bbe703232da31bbc9c157
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:01:38 2020 +0530
+
+    Update README.md
+
+commit 79f9f5d8020a609c041215646c5f610d2657633b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:45:48 2020 +0530
+
+    100 performance
+
+commit ac5b48295266803da5d61adcf844885b85a3d82a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:44:18 2020 +0530
+
+    Update README.md
+
+commit a10ae3a5e3a022644066bac68fdd45640700d6d0
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:37:43 2020 +0530
+
+    description update
+
+commit 4eb43528ac3f65e64dd608d5449ba16892ad1a2e
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:19:02 2020 +0530
+
+    Update README.md
+
+commit aed0e699b6c90185cdf072e574c233930455e3f9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:17:56 2020 +0530
+
+    Update README.md
+
+commit 1948fcbaa4b3534f8bcf6153e56fee7037f71ddf
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 00:01:06 2020 +0530
+
+    Update README.md
+
+commit fb55563b3396d7c9fe073ef5b992d9e84bf3f907
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 16 23:47:58 2020 +0530
+
+    V2.00 upgrade
+
+commit ca269b37bf5c149f73b9ea507ce7dc40ae3d810d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Oct 14 11:17:34 2020 +0530
+
+    project background color update
+
+commit c91f4b5a212937694bf30d6a2c36d8e3489745bb
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Tue Oct 13 07:08:48 2020 +0530
+
+    Update README.md
+
+commit 5224fc0efba8be5818017095e7ff0086d91872fa
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 22:42:39 2020 +0530
+
+    performance update
+
+commit 503625575bf15eee7521915297b40946d00646b5
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 09:38:05 2020 +0530
+
+    Update README.md
+
+commit 9255ec161a0bdfacbc2df4527ef91bd3a22cb838
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 09:26:15 2020 +0530
+
+    update for performance
+
+commit a7a01c27887cd0432fc29fd6a3fe7b03f8e4d6ae
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 06:35:19 2020 +0530
+
+    Update FUNDING.yml
+
+commit 153290a01aeab89a483b3a6fcd66c92d4bc8ac36
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 06:33:15 2020 +0530
+
+    Create FUNDING.yml
+
+commit ece0b02e3992bfbbbf59a25d36f4a752141b1973
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 20:55:43 2020 +0530
+
+    title tag
+
+commit 7599139b45bbedc25b24812a69b5599ad131b1bd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 20:47:38 2020 +0530
+
+    Update README.md
+
+commit 6be06455440cd3bb2dfb23e274f6da6cd32c27fd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 19:06:29 2020 +0530
+
+    Update config.yaml
+
+commit a3050c530426f7bb63822d2b3a38bcdcb667d5fb
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:30:19 2020 +0530
+
+    Update README.md
+
+commit a58dfdae1bd70c9b36637d979a7f1c1a71630cbb
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:28:32 2020 +0530
+
+    background fix
+
+commit a66c746f490cec13406163527271a6a8665a3b51
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:26:47 2020 +0530
+
+    background fix
+
+commit 36106b5dda7eb5d9328bf46323c5603b23be0384
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:10:04 2020 +0530
+
+    js files
+
+commit 73ccddcf9655f9629bc0ac890366ff8d17591239
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:09:16 2020 +0530
+
+    Delete popper.min.js
+
+commit 318ed465ef60b2b935ed91979e48ebbfb9d018bf
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:09:01 2020 +0530
+
+    Delete jquery.slim.min.js
+
+commit e48af52b7d39adebc420ce9f0b20fc365a8c2c05
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:08:43 2020 +0530
+
+    Delete bootstrap.min.js
+
+commit 0d7dab35231e31a46898f08b132eb50a90cf61df
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:07:42 2020 +0530
+
+    Update README.md
+
+commit fae99267972ef7dd5a285b0513c30b9d77413e9a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:06:31 2020 +0530
+
+    exampleSite
+
+commit 9a911d2a895ebb9e48267bac89471e017ab16f32
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:03:17 2020 +0530
+
+    Create config.yaml
+
+commit 83b0547fb1a27f5e2309befc2b9014dc7551d471
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:58:40 2020 +0530
+
+    Delete config.yaml
+
+commit 6ad67c46c5fe7e12d4c308b91788deddda784823
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:58:23 2020 +0530
+
+    Delete New Text Document.txt
+
+commit 54b1be36f86d08a47604873b16e41df99621a25b
+Merge: 00cf92f b960d79
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:57:27 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 00cf92f1f0695e1fdde41e5892afa6ec22d6bafc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:57:00 2020 +0530
+
+    user friendly
+
+commit b960d79df08b8d197f620f5f29545934d9712f6e
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:55:11 2020 +0530
+
+    Add files via upload
+
+commit d344d83f01a518e730036af110e6f7b640c3b188
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:42:07 2020 +0530
+
+    user friendly
+
+commit 8379758b6e7892a65656e6bb9132a7024e7223e8
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 1 23:02:38 2020 +0530
+
+    Update single.html
+
+commit 1fa593c03048ac7a2c2b0a662ac1e03a878fe7ef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 1 08:44:08 2020 +0530
+
+    Update single.html
+
+commit 06aaf3b013566dcf0661c74b60eb1c9c997dde17
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Sep 30 22:49:02 2020 +0530
+
+    code style update
+
+commit ead5bbc69541f0e28dc743315dd8c1951989db8f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Sep 30 07:39:34 2020 +0530
+
+    h1,h2 update
+
+commit 40110a5082d34b3e9f23a384eeb5918ce03c1cc0
+Merge: e3e1117 ace6b0e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:08:14 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit e3e1117465afc13adacc30f73ab3c6076d3012d0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:07:41 2020 +0530
+
+    breadcrumb update
+
+commit b3f0329bffc8544c8fd8524bc9c2c74b8feec184
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:04:54 2020 +0530
+
+    breadcrumb update
+
+commit ace6b0ecff535acda6722a123b29d765dc709dfc
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 21:11:26 2020 +0530
+
+    Update README.md
+
+commit 77a92caa4d7e52a412c9bf52e3599d9e67110b3b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 21:09:05 2020 +0530
+
+    Update README.md
+
+commit 42a6f233241784e394c30d6e39f20e4722f53a05
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 18:21:01 2020 +0530
+
+    Update README.md
+
+commit df47f7a9110d22fcca14ed8c9a08a79d4511235a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 18:17:48 2020 +0530
+
+    performance
+
+commit 23c18550cc3ce93a8ceab6465f321336a3379cf7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:30:03 2020 +0530
+
+    Update config.yaml
+
+commit 8d74d399633fc2964ecb4c474be5e5ccc8efcdbd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:24:51 2020 +0530
+
+    Update footer.html
+
+commit 88d9ee644889c9012433f325b50a825c3bff2874
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:24:05 2020 +0530
+
+    Update config.yaml
+
+commit f4a654428ea159da0f0a07738bf0049740d06d2f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:20:05 2020 +0530
+
+    Update config.yaml
+
+commit 1d9c819ddb65f461fce24b24e9e79aa1d70ed6b6
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:05:07 2020 +0530
+
+    update
+
+commit bdce5b0bce974bf654da5b4abe097a50af7f6395
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 12:18:26 2020 +0530
+
+    update
+
+commit 9ccb3e1193f14f974210528f1f933f1bc8989326
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 26 08:35:54 2020 +0530
+
+    Update README.md
+
+commit b741838b79c3d116b2bb26d8b10a79011be85690
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 26 08:34:57 2020 +0530
+
+    Update README.md
+
+commit 337803791e96152f57118bf863e06b87c6e5c1b7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 25 11:47:58 2020 +0530
+
+    blog update
+
+commit 47e52a18f8ab3fdb62c34e93da0afc3a2a434db5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 24 15:20:54 2020 +0530
+
+    screenshot
+
+commit 7f4cac91ecec47d2a1134a7d840b1390c1d22b9c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 24 11:58:02 2020 +0530
+
+    blog
+
+commit b4681b58569ff871c18a88d285766d8b8f06e87e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 23 13:29:44 2020 +0530
+
+    google analytics and disqus
+
+commit b4294b0cc9cdc40372af3d332ac6121637b09c1e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 22 13:32:47 2020 +0530
+
+    theme
+
+commit 083a33b29c41ba39047a4ee4bec5873b9db209c1
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 20 13:20:30 2020 +0530
+
+    theme update
+
+commit 311d26eb51282e3cb922f11d99afd660d0d8a7d1
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:25:42 2020 +0530
+
+    url update
+
+commit 20afe95965b37c3b4660719d419677ea3337d99f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:24:03 2020 +0530
+
+    Update README.md
+
+commit 1239f17b7e96f63d9e706e8e62903317e9c7e459
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:02:55 2020 +0530
+
+    screenshot
+
+commit fe7e28bd3fa8ebad2507f1c9d31a3771d7eb2a5b
+Merge: faa221b 3ae9331
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 12:36:54 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit faa221b749990a86adb5d87a9a35b734fd3a2b70
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 12:26:55 2020 +0530
+
+    Hugo-profile
+
+commit 3ae93318bb062b7782e34977ccaa48b53f57b1b3
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 18:30:19 2020 +0530
+
+    add readme file
+
+commit 131a0982612727d318d04ac37f99a382d48af631
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 18:03:21 2020 +0530
+
+    preview
+
+commit f0f30d65097641767bda895f457915670b9d2102
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 17:43:09 2020 +0530
+
+    hugo-profile theme
+
+commit e58dd23a1dd1bebe86da7b63b8490419080296e0
+Merge: 202079b c18a50b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 12 22:34:29 2020 +0530
+
+    Merge pull request #2 from gurusabarish/add-license-1
+    
+    Create LICENSE
+
+commit c18a50b4388fd390059d624c0c9b1bd61ea96e85
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 12 22:34:08 2020 +0530
+
+    Create LICENSE
+
+commit 202079b9b187d496e4bc7cce14c9596751d3ce6c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 10 08:29:52 2020 +0530
+
+    projects
+
+commit c46f42e09e1ec3ef70b801a2fd16d90287c7dfa4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 8 20:22:06 2020 +0530
+
+    skills
+
+commit 4dd1bd54d2378a915677852ae723a33bb504727f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 7 23:25:48 2020 +0530
+
+    about
+
+commit 95c28df2d79af40e4373ce096381f2493d4df4ad
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 7 22:43:04 2020 +0530
+
+    about
+
+commit 5856e45b4b77cbcd58b241ed3781da9b50db8762
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 4 19:41:11 2020 +0530
+
+    Do things
+
+commit 11c4ca12ac72b4d6723a73ba3c203eb4809b7b15
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 4 12:28:09 2020 +0530
+
+    about
+
+commit 4e6c6c48997caed57e1961408fff0a0bec1fb8e4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 3 11:59:58 2020 +0530
+
+    home
+
+commit 1551064616d164c3b0cd9ccbcad4f81210e0a027
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 20:18:58 2020 +0530
+
+    home
+
+commit 19d62ea049f9a97ba1c2e9d949b5ef1965fc5917
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 12:54:45 2020 +0530
+
+    home update
+
+commit cfc3d6c0f362e0ae9269027e6f291a995cac94aa
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 10:53:32 2020 +0530
+
+    home update
+
+commit 21c4c15b6557455b8c3f110c7a251628372907f0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 31 23:51:20 2020 +0530
+
+    update
+
+commit 72e49d4efaf21b2f5d0da9cc6ae103f9e5eb8d6e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 30 00:41:07 2020 +0530
+
+    favicon
+
+commit 2ee892e5d3e4a0ea17e3ba48dfde7ed0977592a2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Aug 29 23:05:52 2020 +0530
+
+    navbar update
+
+commit 20888a56e0307a2bfaeec2249b10b7e502a2b43f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Aug 26 13:11:57 2020 +0530
+
+    update
+
+commit 98b3e9eb2026b88e9d8d2fbf439d9bebf607836b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Aug 20 13:39:09 2020 +0530
+
+    preview image update
+
+commit 4b68507a035d43131a530c54e96c9d01a9b5abe7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 18 13:03:32 2020 +0530
+
+    change in css file
+
+commit bf5d3b5db438fbaca1240f42418e64b7218aa1e3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 16 12:51:49 2020 +0530
+
+    First one
+commit 236b319bd73d4d38f21d308961595a197fcf4b47
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 21:59:17 2024 +0530
+
+    viewer js integration for gallery
+
+commit d3755c81bf98b1b3e04d5deb99f8ee82b07b9309
+Merge: 4eb45a4 6af46f2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:19:40 2024 +0530
+
+    Merge pull request #170 from TeamLinux01/exampleDefault
+    
+    Added a description to help with changing profile colors
+
+commit 4eb45a4aa601fa836b1317d906d41390c97654ad
+Merge: 8987e0e 08ac7bf
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:07:53 2024 +0530
+
+    Merge pull request #179 from MarekPikula/navbar-separator
+    
+    Add optional navbar separator
+
+commit 8987e0e2f6b68f88bfb120cbc7aa8704a23b2aa5
+Merge: 5b98b38 b7540c7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:06:20 2024 +0530
+
+    Merge pull request #178 from MarekPikula/configure-contact-message-rows
+    
+    Add option to specify message rows for formspree form
+
+commit 5b98b3804081e05fda3200000469b4329110c946
+Merge: 7e0a195 2c87c47
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:05:26 2024 +0530
+
+    Merge pull request #177 from MarekPikula/optional-new-tab-for-tags
+    
+    Make opening tag link in a new tab optional
+
+commit 2c87c47bb0ad313f8b82f5c272187321cf95f130
+Merge: 50ce9a0 7e0a195
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:04:14 2024 +0530
+
+    Merge branch 'master' into optional-new-tab-for-tags
+
+commit 7e0a195e99c1fcb63a898bc73492e8ecd727b5b5
+Merge: fe4aa07 07fc9f9
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 20:02:16 2024 +0530
+
+    Merge pull request #176 from MarekPikula/fix-custom-css
+    
+    Move custom style declaration to baseof
+
+commit fe4aa07a8e19a0093fe9dd9a3f7809a36d675e6f
+Merge: a01acae 9b5ef18
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:57:03 2024 +0530
+
+    Merge pull request #174 from MarekPikula/global-signle-socialshare
+    
+    Add option to globally disable single page social share
+
+commit a01acaed6cf46bc453162b350ce1ae91625f874b
+Merge: c1ff66b bfc0f01
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:54:41 2024 +0530
+
+    Merge pull request #173 from MarekPikula/hide-vr-without-author
+    
+    Hide vertical rule in single if no author is set
+
+commit c1ff66b3747fb91945b75d89de24a4997b7102a1
+Merge: 684a314 63ed2d7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:48:50 2024 +0530
+
+    Merge pull request #172 from MarekPikula/disable-footer-logo
+    
+    Fix logo display if no logo/favicon are set
+
+commit 684a31444ea817e3bc915b05cff59faf37483c13
+Merge: b8c83af 0a95ffa
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 15 19:47:26 2024 +0530
+
+    Merge pull request #171 from MarekPikula/hero-social-local
+    
+    Don't open hero social link if href is local
+
+commit 08ac7bf6cfeabf1be2002be22216c92e33c7483e
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Fri Jun 7 14:03:13 2024 +0200
+
+    Don't wrap navbar item text
+    
+    It prevents from separator misalignment in certain screen sizes.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 89597da9a8a86fa78d619d2711cccd3e2697b79a
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Fri Jun 7 14:01:38 2024 +0200
+
+    Fix navbar separator on mobile sizes
+    
+    Before, the separator stayed as vertical line in mobile orientation.
+    Now, it's replaced with dropdown separator (i.e., horizontal line).
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit b8c83aff4c4b3eb715e6f2ba65a51072b912cfc6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jun 4 04:16:09 2024 +0530
+
+    Update README.md
+
+commit 7b480c51ca74d7dcf89f002c87b1a779d28dd176
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 20:46:59 2024 +0200
+
+    Add optional navbar separator
+    
+    It cleanly separates the home page sections from the main menu.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit b7540c728df2bda3dc47b9bdf70fcaab0daac8d7
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 20:06:11 2024 +0200
+
+    Add option to specify message rows for formspree form
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 50ce9a0ac5029e8620d29c8dcf8d4c1c377efa71
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 19:53:40 2024 +0200
+
+    Make opening tag link in a new tab optional
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 07fc9f91ad785c6b33103d069ead424db0573429
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 19:41:23 2024 +0200
+
+    Move custom style declaration to baseof
+    
+    This ensures that custom style takes precedent over theme styles. Useful
+    when overriding theme styles for, e.g., single page.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 63ed2d74f34746fc4793edc773d62743fe8e243e
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 01:10:21 2024 +0200
+
+    Fix disabling navbar logo
+    
+    Previously, even if `navbar.showBrandLogo` was set to false, the navbar
+    logo would be shown.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 9b5ef18fd9c4497d06e8e17235731c4c4db17504
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 01:06:55 2024 +0200
+
+    Add option to globally disable single page social share
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit bfc0f01a4605663f9d228b0d399a7e78d9e82635
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:59:04 2024 +0200
+
+    Hide vertical rule in single if no author is set
+    
+    Before, even if no author was set, vertical rule was shown before the
+    date on the top of a single page.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit e36a0e76d041d3e4d0fc60e5fbdd509083700f82
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:51:39 2024 +0200
+
+    Don't show footer logo if images are not set
+    
+    Previously, an empty image was shown if neither `navbar.brandLogo` or
+    `favicon` were set.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 0a95ffa08af0f52fd47d1f82c853e16f986ed348
+Author: Marek Pikuła <marek@serenitycode.dev>
+Date:   Sun Jun 2 00:47:34 2024 +0200
+
+    Don't open hero social link if href is local
+    
+    In case link for a social icon in the hero image is set to local link
+    (e.g., "#contact"), don't open it in a new tab. It's useful if you don't
+    want to publish a link to your e-mail in clear text, and rather redirect
+    user to the contact form.
+    
+    Signed-off-by: Marek Pikuła <marek@serenitycode.dev>
+
+commit 6af46f2ae6c84371051b03b2dc40c186a1e03631
+Author: TeamLinux01 <43735175+TeamLinux01@users.noreply.github.com>
+Date:   Mon May 27 16:52:52 2024 -0400
+
+    Added a description to help with changing profile colors
+
+commit 4687d533368288e9f71d358dca30099f29535531
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 19:04:52 2024 +0530
+
+    get in touch button dynamic link support - #155
+
+commit 68eb034fdff53b719ace1ff18e95e2fb65dddaa1
+Merge: ccee3ad 9ca8c77
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 18:31:53 2024 +0530
+
+    Merge pull request #143 from aniketbhatnagar/feature/head-extensions
+    
+    Added ability to add custom content to head
+
+commit ccee3ad2dd978ec59833864f44a9702cbf0db10a
+Merge: 92ffcdb 9cfe7b3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 9 18:24:54 2024 +0530
+
+    Merge pull request #153 from Maverobot/master
+    
+    Add a button for sharing posts to Linkedin
+
+commit 92ffcdb0880ac211ab972d1eab336ff0f6106d9b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 15 23:34:35 2024 +0530
+
+    scrollbar and post styling update
+
+commit 9cfe7b3e7917d7793401983022135018b84c05ba
+Author: Zheng Qu <quzhengrobot@gmail.com>
+Date:   Fri Jan 12 09:08:02 2024 +0100
+
+    Add a button for sharing posts to Linkedin
+
+commit d49ebeb82b1647e3cdb2766052402303ee79641f
+Merge: 6c63323 0c56469
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Dec 24 16:12:36 2023 +0530
+
+    Merge pull request #142 from jochavez/master
+    
+    Updating gallery param to fix Internal templates
+
+commit 9ca8c778511d6ae090414630854f1b703509b732
+Author: Aniket Bhatnagar <aniket.bhatnagar@coinbase.com>
+Date:   Thu Dec 21 11:48:54 2023 +0100
+
+    Added ability to customize head
+
+commit 0c564693b306ae4fa629ef68f72a2cefa840f0fa
+Author: Jordan Castillo Chavez <jcastillochavez@rvohealth.com>
+Date:   Mon Dec 18 17:40:01 2023 -0500
+
+    update gallery layout to use new name
+    
+    updating the gallery layout to use the new param name passed from the gallery content file.
+
+commit c99e86bef797adf5c1d8c4fc602b0bb08da37087
+Author: Jordan Castillo Chavez <jcastillochavez@rvohealth.com>
+Date:   Mon Dec 18 17:38:36 2023 -0500
+
+    update gallery param name
+    
+    updating the param `images` in the gallery file.
+
+commit 6c63323612b1a43ce23665c2c961a1f2c49ba5a0
+Merge: 5124d3a c51a759
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Dec 17 11:17:10 2023 +0530
+
+    Merge pull request #140 from statictear/patch-1
+    
+    Update README.md hugo new site syntax
+
+commit c51a759b0538f45b79759b3342051f77794a4ddc
+Author: John Woodling <88202839+statictear@users.noreply.github.com>
+Date:   Wed Dec 13 10:34:38 2023 -0600
+
+    Update README.md
+    
+    updated line 43 for hugo new site with --format flag and put YAML in double quotations to align with the hugo-new-site man page
+
+commit 5124d3a0a70199bc31eb20ba704bac6987427b13
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 5 22:06:44 2023 +0530
+
+    Update FUNDING.yml
+
+commit ea0d99b932619ef5ee6ab9c8238754bebfa91f99
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 20 12:43:39 2023 +0530
+
+    Enable sticky navbar
+
+commit 70ea254099da0239185824c04adf77af33aafa7a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 19 19:57:11 2023 +0530
+
+    support for sticky navbar
+
+commit 33e37f75c0dfbbe93170c337d322578249cfd2b4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 19 17:06:32 2023 +0530
+
+    fontawesome 6 upgrade
+
+commit ff0c97fb8bcdbf8b9c7af355b449532f57b43581
+Merge: 6c98607 1824a5a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 6 15:41:51 2023 +0530
+
+    Merge pull request #137 from abelsiqueira/136-global-mathjax
+    
+    Allow mathjax to be set globally
+
+commit 1824a5a0b7f72bf5d1d255e520e17d82ea2b79fb
+Author: Abel Soares Siqueira <abel.s.siqueira@gmail.com>
+Date:   Sun Oct 29 21:00:27 2023 +0100
+
+    Allow mathjax to be set globally
+
+commit 6c986070fc7842ed9adaa45d78cc67bd29d92169
+Merge: 118e29a b4fc0a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 28 23:24:43 2023 +0530
+
+    Merge pull request #132 from Prakash4844/Center_Blog_Featured_img
+    
+    Centered Single Blog Feature Images
+
+commit b4fc0a677b8959ffcbee2d344fae2191f9727aaf
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Sat Sep 9 21:03:27 2023 +0530
+
+    - Centered Single Blog Feature Images
+    - Cleaned Garbage Commits
+
+commit 118e29a67afd049b7a720c872cbc4b9b1161c1f0
+Merge: ba95980 14f45b6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 08:00:19 2023 +0530
+
+    Merge pull request #104 from Monpoke/master
+    
+    Added custom scripts at bottom of page
+
+commit ba95980934ad0504a24af6eff59be15a3b6f3b7b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 02:23:25 2023 +0000
+
+    use dynamic path in recent posts section
+
+commit d415ceb515cf56cdf35dfa1dd5844d8bddc91dc0
+Merge: 33b52c3 95ba633
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:47:55 2023 +0530
+
+    Merge pull request #116 from mancku/patch-1
+    
+    Only creating the div if showing recent posts
+
+commit 33b52c36934dea266439ed6fac62340240d976ea
+Merge: 2515cbf 4eee340
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:39:24 2023 +0530
+
+    Merge pull request #124 from seburbandev/master
+    
+    Typo fix in README.md
+
+commit 2515cbf1daf732b9fcaaf9a284db34e7a608ca83
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 02:08:30 2023 +0000
+
+    improved achievment image support
+
+commit 762ba5228a45ffa01fccec11000b1b61ef606d8c
+Merge: 828be0d 1957ab3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 8 07:13:24 2023 +0530
+
+    Merge pull request #125 from Prakash4844/Improvement/certificates
+    
+    [Improvement] Added Optional certification/achievements image in card head.
+
+commit 1957ab34ed46506cde9599654383750af7bc495b
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Wed Jul 19 17:43:07 2023 +0530
+
+    Test
+
+commit 2e8befaeb6e2297d3de5660e4f5a569d23561cde
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Fri Jul 14 11:44:13 2023 +0530
+
+    fixed image paths
+
+commit 3a6ef471f4abf919792c5c9b2dde6e358d9c5233
+Merge: 0581d78 828be0d
+Author: Prakash <81550376+Prakash4844@users.noreply.github.com>
+Date:   Fri Jul 14 11:28:50 2023 +0530
+
+    Merge branch 'gurusabarish:master' into Improvement/certificates
+
+commit 0581d786e79cb9f45f16b2a7282761d54039af3e
+Author: Prakash4844 <pk484442@gmail.com>
+Date:   Fri Jul 14 11:28:18 2023 +0530
+
+    - Added Image in card head for certificate and badge section.
+    - Added Image param for certification in config.yaml
+
+commit 4eee34077f6d6e3f47635a8e38cbeae8207c50ce
+Author: Sebastian Urban <hello@sebastianurban.dev>
+Date:   Wed Jul 12 23:08:42 2023 +0100
+
+    Typo fix in README.md
+    
+    Corrected a typo in README.md file where command was spelt 'commend'
+
+commit 14f45b68d1dffdd692434a84f8ed5af2c719ec65
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Mon Mar 27 15:40:31 2023 +0200
+
+    Added example for customScripts
+    
+    
+    Added doc for customScripts
+
+commit 208de248e3ba19a2ccf822a502189ac36427d385
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Tue Feb 14 09:37:53 2023 +0100
+
+    added custom scripts at bottom of the page
+
+commit 95ba6334d4dbed4959966f8faf6019838777983b
+Author: Adrià López <adria.lopez.ortega@gmail.com>
+Date:   Fri Mar 24 19:16:57 2023 +0100
+
+    Only creating the div if showing recent posts
+    
+    Hi,
+    
+    I thought that it's better to avoid adding the recent-posts div to the DOM if that section is not enabled.
+    Also, I've modified the logic so that if there are no posts, it will be considered disabled instead of showing the title with no further content.
+    
+    Hope this is Ok.
+
+commit 828be0d1c04213ace8279d2d3f9f4410b2db0c51
+Merge: a36ef35 9b9e8a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:32:00 2023 +0530
+
+    Merge pull request #114 from gurusabarish/search_placeholder
+    
+    Customize search placeholder
+
+commit 9b9e8a6b844b3d5e524843e599466477747dafc4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:30:05 2023 +0530
+
+    option to customize search placeholder
+
+commit de4c1e1a5711ac8deead2f2b288d6620b4ea93a5
+Merge: 84e118a a36ef35
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 21 07:18:02 2023 +0530
+
+    Merge branch 'master' into search_placeholder
+
+commit a36ef35350f7b05e6929cbbf8477508eaa16350d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 20 07:25:23 2023 +0530
+
+    fix for #113
+
+commit 6da60eaa31bc2adb339a368811026e9353d5fd06
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 19 10:43:47 2023 +0530
+
+    fix for #108
+
+commit 84e118a7234ecb4be815918beb7b5aa9c4a2ac31
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Sun Mar 12 14:07:46 2023 -0400
+
+    fix: provide clearer placeholder for search bar
+
+commit e26564cde65d060e4e7406e8f9cde7f20cecc017
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 7 07:37:27 2023 +0530
+
+    added option to disable hero bottom image
+
+commit 2e8daeaa0d2e5a102bd4a22a2cf274bda57b101a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Feb 12 00:41:29 2023 +0530
+
+    added scroll progress bar in single page template
+
+commit edde3e112374d45d3c84a6e505f52e0038f46b32
+Merge: 98f6f9c 1286527
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 9 23:15:01 2023 +0530
+
+    Merge pull request #101 from pantera-rosa/clean-up-code
+    
+    clean up code
+
+commit 1286527ddd89f0a89909f3d9b364293850a848ee
+Author: pantera-rosa <ilonacrista@gmail.com>
+Date:   Tue Feb 7 14:05:11 2023 -0800
+
+    clean up code
+    
+    Revert "make navbar sticky"
+    
+    This reverts commit 72d40a3005eeb73872bcbf943a16ef35466bc587.
+    
+    clean up code
+    
+    make navbar sticky
+
+commit 98f6f9c223a8be3f9b3e49ceca825f114521de7e
+Merge: 03a9f1b aae2408
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:17:15 2023 +0530
+
+    Merge pull request #97 from Monpoke/master
+    
+    Adds translations for static texts
+
+commit 03a9f1b237077008350c05f7659d84c97508e9a1
+Merge: 308342e 1f28959
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:14:13 2023 +0530
+
+    Merge pull request #95 from benarmstead/round-hero-image
+    
+    Make hero image round if roundImage: true
+
+commit 308342eefcf98d5ab18cd0d6dfec0f8c82318577
+Merge: 6930cf2 62a2507
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 6 22:12:05 2023 +0530
+
+    Merge pull request #94 from benarmstead/master
+    
+    Add showBrandLogo flag to allow hiding in nav bar
+
+commit aae2408ef703d3130d667459445c566bc6aee46c
+Author: Pierre Bourgeois <contact@pierrebourgeois.fr>
+Date:   Sun Feb 5 20:09:51 2023 +0100
+
+    Adds translations for static texts
+
+commit 1f289595f9db213661a4df00d187213f3bf46fb1
+Author: Ben Armstead <ben@benarmstead.co.uk>
+Date:   Sun Feb 5 12:05:22 2023 +0000
+
+    Make hero image round if roundImage: true
+
+commit 62a2507e19aa02737b8284661cc31fa02102d604
+Author: Ben Armstead <ben@benarmstead.co.uk>
+Date:   Sun Feb 5 11:45:13 2023 +0000
+
+    Add showBrandLogo flag to allow hiding in nav bar
+
+commit 6930cf2da2a4956fba07fe7d1816d4faa39e248d
+Merge: 4dad914 7ce2ea3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 3 00:02:06 2023 +0530
+
+    Merge pull request #91 from pantera-rosa/patch-1
+    
+    add primary-font to experience
+
+commit 7ce2ea3ae225d6cb5f4dfade8f1887c0ded4afd1
+Author: ilona <ibodnar@usc.edu>
+Date:   Tue Jan 31 23:33:51 2023 -0800
+
+    add primary-font to experience
+    
+    keeping font consistent
+
+commit 4dad914f15d33400299737872ec5a30f85e54f12
+Merge: 8e8d337 bd4225c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 12:36:56 2023 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 8e8d33799bb2742969a2a6a5a801d006c2a8a565
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 12:36:42 2023 +0530
+
+    added bootstrap js map file
+
+commit bd4225c25c80b3c00a84c29e686c8e28b808cfa8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 01:12:44 2023 +0530
+
+    Update config.yaml
+
+commit 123418edead095e25fef42bc678e1e755984b88c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jan 22 01:10:14 2023 +0530
+
+    on escape and schortcut functionality added for search
+
+commit c28b579ab6527a212f0ecf9185eb532b4a3d2bee
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 21 23:34:17 2023 +0530
+
+    window.matchMedia check
+
+commit 1d476eb2b50cc57ab75c69feafa37df290285df8
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 21 23:31:22 2023 +0530
+
+    added reading time in single page
+
+commit 07c0b9652f65044bc73e73ae180fde85cf878a73
+Merge: 9c1b16e cd85ec4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 16 20:22:27 2023 +0530
+
+    Merge pull request #88 from gurusabarish/87
+    
+     Integrate with FormSpree for submitting 'Contact me' form #87 by @dmantula
+
+commit cd85ec46cdc89db786877bbe3be711099dcf3896
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 16 20:15:05 2023 +0530
+
+    added styling
+
+commit 001841d6e68bfe32670243b6a6a825902de7b1d5
+Author: Dmytro Mantula <dmantula@icloud.com>
+Date:   Sat Jan 14 15:47:14 2023 +0100
+
+    Integrate with FormSpree for submitting 'Contact me' form
+    
+    To enable the integration, uncomment the section `params.contact.formspree` and set the `formId` value (provided by FormSpree).
+    It's recommended to change the `btnName` from "Mail me" to "Contact me" as far as visitors won't see your email address.
+    FormSpree section has preference over `email` if the both are set.
+
+commit 9c1b16ec3d1d70f1810526a6df4c4c4ee036a6ba
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 10 00:07:33 2023 +0530
+
+    Update FUNDING.yml
+
+commit a15bcb669966e531b44207ff4c388bdbb6d260bb
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 2 23:27:30 2023 +0530
+
+    Update config.yaml
+
+commit 43d6a7b95793754dc248211e495e4bfed2953885
+Merge: f411349 fcbbf92
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 22 23:44:23 2022 +0530
+
+    Merge pull request #84 from fbartels/patch-1
+    
+    Fix toggle to disable projects from the menu
+
+commit fcbbf9219b2180435d84ff3fb094bcec11f79ef1
+Author: Felix Bartels <1257835+fbartels@users.noreply.github.com>
+Date:   Wed Dec 21 17:42:37 2022 +0100
+
+    Fix toggle to disable projects from the menu
+
+commit f411349c20eaf01b6c538c5c445f09bf7ec6f03a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:25:39 2022 +0530
+
+    Update netlify.toml
+
+commit f0d7967d338cf2048492576f50d56c398e1ba401
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:10:43 2022 +0530
+
+    bux fix
+
+commit 8f90faf8dc6ede91d6092697089e8927d67c3b01
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 14 00:10:18 2022 +0530
+
+    bux fix
+
+commit 66028185e6f57d8d68d2d1a177ab079b607d29ae
+Merge: 413eb0f b74eb25
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:59:28 2022 +0530
+
+    Merge pull request #83 from artis3n/mathjax-support
+    
+    feat: add rendered math support with mathjax
+
+commit b74eb25d6a5a7b73d3bb368a0dd15dee0501a9c1
+Merge: bedb8ba 413eb0f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:56:00 2022 +0530
+
+    Merge branch 'master' into mathjax-support
+
+commit 413eb0ff300b61c53f156170a11a8b01c2d29742
+Merge: 5921485 185202f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Dec 13 22:42:32 2022 +0530
+
+    Merge pull request #80 from artis3n/master
+    
+    feat: add optional response images with cloudinary
+
+commit bedb8ba1ca16de7836c77ad9befc25f0de92ffbf
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 9 17:06:38 2022 -0500
+
+    feat: add rendered math support with mathjax
+
+commit 185202fc81a0db1177be654b8611be1e8ffd734e
+Author: Artis3n <dev@artis3nal.com>
+Date:   Fri Dec 9 16:29:09 2022 -0500
+
+    dynamic img shouldn't have file extension
+
+commit 6da06e4755fd5cf35427da3a3ac44a38feba7516
+Author: Artis3n <dev@artis3nal.com>
+Date:   Fri Dec 9 16:26:22 2022 -0500
+
+    move dynamic-img example to rich content page
+
+commit c68ff46e738cf63354b3864b70bff032cca24dbf
+Merge: 7b38dc4 5921485
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Thu Dec 8 23:28:38 2022 -0500
+
+    Merge branch 'gurusabarish:master' into master
+
+commit 5921485a1020a41dada624777fbe4a0c7adc08b7
+Merge: 7d82664 e3f3528
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 8 00:25:42 2022 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 7d826646dccaf6e6f8b4085a389d807919bd74a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Dec 8 00:24:54 2022 +0530
+
+    hide search scrollbar
+
+commit e3f3528262199156a091a85c1f50450ff4a6e079
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:04:51 2022 +0530
+
+    Update netlify.toml
+
+commit 6944931cddd9a8bde407856084ca1dee72595765
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:04:10 2022 +0530
+
+    Update netlify.toml
+
+commit ea22cf364b23bc0ec66a123f0902ca8b6f21e3a6
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 12:01:16 2022 +0530
+
+    Update netlify.toml
+
+commit 009f58d863c4fc68aa43baae8ac0ebbdba070bda
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 11:57:34 2022 +0530
+
+    Update config.yaml
+
+commit 63cb28aa724d9c86526764a94ca7e3f26a78db16
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Dec 7 11:05:28 2022 +0530
+
+    search fix
+
+commit b783b1b224f03040127e204fa69e1999185855d5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Dec 5 17:11:52 2022 +0530
+
+    google analutics fix and implemented #82
+
+commit 7b38dc460268b425c274d8a2cf364e3ae47a00b7
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Sat Dec 3 12:44:14 2022 -0500
+
+    px is more appropriate than rem for this use case
+
+commit 2cb88d74e500ced03d4b4d649c14eff51d1f786b
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 21:17:07 2022 -0500
+
+    improve rendered image layout padding
+
+commit f457fc487478ec034e5c84ebf10d0aa78c56861e
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 21:12:33 2022 -0500
+
+    80% is a better default
+    
+    Less need for people to customize
+
+commit 6d1ebbace5244dc69706a5d39798d926412a545d
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 18:25:54 2022 -0500
+
+    use max-width instead of width
+
+commit 0d95181b634af38eda8344b4babe61de6c1f710b
+Author: Ari Kalfus <dev@artis3nal.com>
+Date:   Fri Dec 2 18:05:06 2022 -0500
+
+    feat: add optional response images with cloudinary
+
+commit efc0918ad7e4d8d929e70a2c6478ad4cac99a467
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 16:39:57 2022 +0530
+
+    recent post footer border fix
+
+commit f08cc9e7366452146ac7d2d937a85469d3f1f4ff
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 16:13:41 2022 +0530
+
+    increased border size of hero image
+
+commit fdd628c9cd5df376e85fefc4f0d1b0219bc910bb
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Nov 29 15:57:39 2022 +0530
+
+    image in blog summery and recent post #62, Scrollbar styling
+
+commit 6b22957c7c4c0d1250544f045f9f9b5e34e2123e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:48:31 2022 +0530
+
+    improvement in search.js
+
+commit 88afcb3b0cdf5d018d08f5db405688394c919eda
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:44:37 2022 +0530
+
+    allowed to generate json file
+
+commit 80e9a7971b401c658cac958bd2b06ac5df626493
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Nov 27 21:39:55 2022 +0530
+
+    added search functionality
+
+commit 5a872cf17a3c262936aa944eb18a8da0b13448c2
+Merge: 143b5f6 0959b9c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Nov 21 17:05:29 2022 +0530
+
+    Merge pull request #77 from MichalLauer/master
+    
+    Optionally open resume in a new tab
+
+commit 0959b9c3af0d86dd3ca2a185824416f20a0da02a
+Author: Michal Lauer NTBK <michal.lauer.25@gmail.com>
+Date:   Fri Sep 30 15:24:28 2022 +0200
+
+    Added option to open resume in a new tab
+
+commit 143b5f6fb3e0798bc37d3fd025ecc30905f21e92
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 27 23:56:33 2022 +0530
+
+    animate bug fix
+
+commit fb91257cfb248ccb3a3d68ef5208bae3d139fdc7
+Merge: a0b3ff5 9d51f41
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 25 22:26:12 2022 +0530
+
+    Merge pull request #74 from NishantTharani/animation-toggle
+    
+    Added animation toggle option by @NishantTharani
+
+commit 9d51f4113e5a78a4ca2570770286d7da7f768adf
+Author: Nishant Tharani <nishant.tharani@gmail.com>
+Date:   Sat Sep 17 14:19:25 2022 -0700
+
+    Added animation toggle option
+
+commit a0b3ff5ff657482e411822a2658030e445d78038
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 10 11:56:22 2022 +0530
+
+    changed experience tab cursor tp pointer
+
+commit d4a8f369284a64b2dbfba54ece946aaf7a484196
+Merge: 6b705a9 5afe994
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 2 21:52:29 2022 +0530
+
+    Merge pull request #72 from mattlathrop/bugfix/button
+    
+    Bugfix/button
+
+commit 5afe994b5ded54149f15075bba4425721a1aca72
+Author: Matt Lathrop <matthew.lathrop@contracto.tactuallabs.com>
+Date:   Thu Sep 1 18:04:00 2022 -0500
+
+    re-added heart to footer
+
+commit 77396e0037687d11f8442658826b8aba8f030f33
+Author: Matt Lathrop <matthew.lathrop@contracto.tactuallabs.com>
+Date:   Thu Sep 1 17:59:02 2022 -0500
+
+    Fix button issue on safari
+
+commit 6b705a9007e70b2b3d3ebbe83fa1a4fc502a3745
+Merge: a177362 c4012c4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 21 22:38:53 2022 +0530
+
+    Merge pull request #68 from oscareduardolp6/my-changes
+    
+    Changes in the sections names to more flexibility & in the resume button to download option
+
+commit c4012c41014544c5fa4758523d41c0969c0c9abb
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:48:02 2022 -0500
+
+    Added missing dot
+
+commit 4d6010713b7a8f55303402dcc2e641d10b1db351
+Merge: 55d38a0 325e3bc
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:34:48 2022 -0500
+
+    Merge branch 'change-names-secctions' into my-changes
+
+commit 325e3bc8ee81663d23e29be7604ff22252af38bc
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:33:16 2022 -0500
+
+    Added option to add custom titles to sections
+
+commit 55d38a0ea35151adcd1229f6ec3b7a2c348de865
+Author: Oscar Lopez <oscareduardolp6@gmail.com>
+Date:   Wed Aug 17 17:24:03 2022 -0500
+
+    Added option to download the resume.pdf
+
+commit a17736285164e678d6480ddd876474de4aaaedf7
+Merge: db70a4b 8a62081
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 24 19:47:48 2022 +0530
+
+    Merge pull request #64 from HugoSave/first-render-time
+    
+    Improved site load time
+
+commit 8a62081fc31151c62254505da356311802b08783
+Author: hugosave <52716835+HugoSave@users.noreply.github.com>
+Date:   Sat Jul 16 18:28:24 2022 +0200
+
+    improved first content render time.
+
+commit db70a4b3881d981ec098b852e9827ae4ed15c49b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 25 23:24:55 2022 +0530
+
+    enable gallery page
+
+commit a221586545dec048547b62140045abf5c7ba7a5a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 25 23:18:39 2022 +0530
+
+    gallery support
+
+commit a534f76eff7c6846ec31385c1f86f4092ae1923c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Jun 22 19:22:34 2022 +0530
+
+    Create FUNDING.yml
+
+commit fe073530a66099b267b2fbb4a403ff09657e0e8b
+Merge: a9c44f9 f89a131
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 2 15:38:21 2022 +0530
+
+    Merge pull request #59 from gurusabarish/multipage
+    
+    Added about page and dropdowm z-index fixed
+
+commit f89a131319fb42645c89efd3decb531eb72c491c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun May 8 12:01:21 2022 +0530
+
+    Added about page and dropdowm z-index fixed
+
+commit a9c44f9ead93060186ce1f17d485e45fe89ef88e
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 30 17:17:53 2022 +0530
+
+    Update config.yaml
+
+commit 77c7aa67635b91d959b0e6e0392a9c7ff4ee67ba
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Apr 27 17:46:52 2022 +0530
+
+    hero min-height update
+
+commit 1c8d314c3d4fefdd723b394c1c0e36ffd2b05f02
+Merge: f5b9c67 dc2b748
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 9 17:19:10 2022 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit f5b9c6728a1b4be9b9f14c9619e5794b4811248d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 9 17:07:17 2022 +0530
+
+    fix for #55
+
+commit dc2b7487ed5263b695557c64cc82fd05657d45d5
+Merge: 6d6f5f0 669f25f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Apr 4 10:06:42 2022 +0530
+
+    Merge pull request #52 from sonic182/master
+    
+    Statics param, and optional GPA by @sonic182
+
+commit 669f25fc751ee3f6e9ea73ef3d6f8a7a348fa8c8
+Author: sonic182 <johander1822@gmail.com>
+Date:   Sun Apr 3 22:59:39 2022 +0200
+
+    all files with StaticPath instead of Statics
+
+commit 6d6f5f0230617ff02f09a283acada6eae778b71c
+Merge: ebaf9cf 837da91
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 3 12:20:58 2022 +0530
+
+    Merge pull request #53 from sudomateo/sudomateo/fix-header
+    
+    Properly toggle Projects link in header by @sudomateo
+
+commit 837da918a7de0b7df0cc793d9fe681d6129c787d
+Author: Matthew Sanabria <24284972+sudomateo@users.noreply.github.com>
+Date:   Sat Apr 2 23:59:10 2022 -0400
+
+    Properly toggle Projects link in header
+
+commit 33b0f43282f4fd449ba3bb9c94836cc8e551e114
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 2 23:35:22 2022 +0530
+
+    Added `ststic` in missed files and renamed to `staticPath`
+    
+    - Added `statics` params in the missed files
+    - Renamed `statics` to `staticPath`
+
+commit fd19e4981bea9aa61a2fe6a5c5ceeb80bd49f749
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 23:28:13 2022 +0200
+
+    fix another link...
+
+commit d19515cf851c83c2e37f2aaa3c2fd64ed19afa14
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 22:47:49 2022 +0200
+
+    removed console log
+
+commit 066b43522611a7660e484ce736b0eac28fd2ad1b
+Author: sonic182 <johander1822@gmail.com>
+Date:   Fri Apr 1 22:45:54 2022 +0200
+
+    more fixes theme
+
+commit b10f02eee9af6f6e9dc79218a22134c60cf40a6b
+Author: sonic182 <johander1822@gmail.com>
+Date:   Wed Mar 30 07:51:07 2022 +0200
+
+    optional GPA
+
+commit 20580ecfcec02cf7b209be23c4bf84f2ef9c3af1
+Author: sonic182 <johander1822@gmail.com>
+Date:   Tue Mar 29 23:34:46 2022 +0200
+
+    static param
+
+commit ebaf9cf5b331ea81681caa1a4f9e13665ebf797a
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:57:07 2022 +0530
+
+    Update README.md
+
+commit a995c599af4e5f09838f65fe877f5d7c87a09f93
+Merge: 00c24c1 6c015a7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:54:03 2022 +0530
+
+    Merge pull request #47 from gurusabarish/v3-stable
+    
+    V4 stable
+
+commit 6c015a7203ec6391915927be064a24a34c10f9bf
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 25 15:12:55 2022 +0530
+
+    V4
+
+commit 708d0a0022e83812af55dd5d80deed8873f82a43
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Mar 24 18:42:53 2022 +0530
+
+    docs
+
+commit 47bde42590410bfb151c4732da8129e1a9483e36
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 23 07:02:07 2022 +0530
+
+    404 page
+
+commit e3fb3dc6beb3546003ad183e39e7d72fca1ede70
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 23 06:04:01 2022 +0530
+
+    hero animations
+
+commit b611c5f102fa22a975663bd3f8a7c40bbcd04dce
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 21 10:44:07 2022 +0530
+
+    hero page modification
+
+commit 05e453ad8311189c8f5eae553c60dce0d0a97d31
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Mar 4 16:46:32 2022 +0530
+
+    darkmode auto, light, dark
+
+commit 47f9d64515dccaded68b0e0c711a03667be6ab3c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Mar 3 22:33:40 2022 +0530
+
+    single page
+
+commit 7e3632490bb66a7d1a2da74408279de5b4cf3e41
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 1 11:47:51 2022 +0530
+
+    index page
+
+commit 54ecbb65c432558fc4a2df75f18aab6a16805f87
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Feb 28 19:28:45 2022 +0530
+
+    Added education in home
+
+commit f8eb6d0646478bc739fc1a1def86ea962a37f735
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 24 22:14:28 2022 +0530
+
+    Added experience in home
+
+commit c353714c7ee41d3a3ea8b4c7f848b09c05debadf
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 19 14:06:12 2022 +0530
+
+    updated hero and about
+
+commit 9a680fae4863667260d489aa6502bde4a30118d2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 19 14:05:24 2022 +0530
+
+    updated hero and about
+
+commit febc7020ded644a746406e43ac1779f95a303d52
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 18 23:30:27 2022 +0530
+
+    added about in home page
+
+commit f73e4bf20d97b0171f78ae9edf5fec2c1a2bf0dd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Feb 17 22:45:51 2022 +0530
+
+    added hero page
+
+commit 006bf5abcd35b6ad85ef0836bdd05896d9f68198
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Feb 13 11:26:08 2022 +0530
+
+    added projects,contact in home and added list page for project
+
+commit a8ec5d338841d2d8b2e9cd324290ca421722bcc9
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Feb 11 19:07:51 2022 +0530
+
+    added achievements
+
+commit 5bd29d2582bb8451a98932b85417884c2e4f033a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 19:33:39 2022 +0530
+
+    netlify build fix
+
+commit 522dfcc07dd894f8ae001307a17a5d91158ff8e0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 19:23:13 2022 +0530
+
+    added list page
+
+commit 4a905a3285860c535711c6ceb828d3182ba95d1c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Feb 9 13:55:57 2022 +0530
+
+    added footer
+
+commit 864259fa6ff077900dbb338787330c335a60b7d2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 5 10:46:29 2022 +0530
+
+    Update netlify.toml
+
+commit e31444f76be897c88cc23c37f26a4975568dab8f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Feb 5 10:34:48 2022 +0530
+
+    initial V3-stable
+
+commit 00c24c1e15e6c6e6a9d1b8b31a0df16630548574
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 31 18:49:26 2022 +0530
+
+    Update deploy.yml
+
+commit c7697d47513c2c997961179a15140a8ed62f7273
+Merge: aeec9ef d159cfb
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jan 31 18:46:14 2022 +0530
+
+    Merge pull request #46 from gurusabarish/dropdown-v3
+    
+    dropdown v3 #44
+
+commit d159cfb59462feffc775440f014c6d3c30bae5be
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Jan 26 17:33:09 2022 +0530
+
+    dropdown v3 #44
+
+commit aeec9ef74fe73be9bf57dd3b01efc61042435193
+Merge: a1a2264 9ab6341
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:35:54 2022 +0530
+
+    Merge pull request #45 from gurusabarish/auto-darkmode-fix
+    
+    Auto darkmode fix for #37 by @lr1980
+
+commit 9ab6341fe4b6e6d663b2186260460773ae316092
+Merge: bbcf135 a1a2264
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:16:18 2022 +0530
+
+    Merge branch 'master' into auto-darkmode-fix
+
+commit bbcf135e1737bed612159361fde439ad45fc3675
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jan 25 23:08:26 2022 +0530
+
+    Auto darkmode fix
+
+commit 5cc0bc0a4662a83fc2092ba70257ccbd59e201a7
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 18:46:30 2022 +0100
+
+    add darkmode cookie
+
+commit d85e48916ffd9dcb89b4fe122003df3df613f138
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 17:33:36 2022 +0100
+
+    outsource auto dark mode javascript into own js file
+
+commit 57066e92a650036b5ab2918c28dc1bae9c073c32
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Mon Jan 24 17:23:09 2022 +0100
+
+    add auto dark mode to baseof html
+
+commit a1a2264e6bb81102b297e9e1838d4777f9460c97
+Merge: 0d554f3 fbb4848
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jan 13 08:30:47 2022 +0530
+
+    Merge pull request #40 from abe-101/master
+    
+    view changes locally when deploying on github
+    by @abe-101
+
+commit fbb48487c7c87d03d7e4d6f95234b95b14134300
+Author: Abe <abe@habet.dev>
+Date:   Wed Jan 12 15:57:58 2022 -0500
+
+    github deployment add CNAME for personal domain
+
+commit 9450f6205bc53956a72488a8ec1f6c49d5df818d
+Author: Abe <abe@habet.dev>
+Date:   Wed Jan 12 13:26:07 2022 -0500
+
+    view changes locally when deploying on github
+
+commit 0d554f32d3cf525b3d26e6c947015b28af485491
+Merge: 49aca12 0a73216
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:31:22 2021 +0530
+
+    Merge pull request #35 from lr1980/remove-resume-pdf
+    
+    remove unnecessary resume.pdf from static by @lr1980
+
+commit 49aca12e81fc083d456a29056981143210798743
+Merge: c864dae 18fdbfd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:14:53 2021 +0530
+
+    Merge pull request #36 from lr1980/markdownify-contact-content
+    
+    emojify and markdownify contact content By @lr1980
+
+commit c864dae946622dd01ab49520b2ec3e64622fc0d9
+Merge: e3ef99c be5a5bf
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 22:09:41 2021 +0530
+
+    Merge pull request #34 from lr1980/fix-static-text
+    
+    Fix static text by @lr1980
+
+commit e3ef99ca400fd2c36db7f2eadb13358d71f73c95
+Merge: f279e15 60893fd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Dec 31 21:50:42 2021 +0530
+
+    Merge pull request #33 from lr1980/fix-bootstrap-map-warning
+    
+    added bootstrap js map because of browser error by @lr1980
+
+commit 6aae5908fd3df429d9dfde4753d7cd9eb640772e
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Wed Dec 29 18:40:23 2021 +0100
+
+    set automatically dark mode
+
+commit 18fdbfd352a602aa6fd6fe75bcb160a03f67405a
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:08:19 2021 +0100
+
+    emojify and markdownify contact content
+
+commit 0a73216880767cb54d43ae275f1dafb9160da926
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:05:32 2021 +0100
+
+    remove unnecessary resume.pdf
+
+commit be5a5bf6bec2add14dcba519a8516c86dde0a79f
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:07:18 2021 +0100
+
+    add variable for "get in touch" text
+
+commit 28e5d1b6e79e0de859504661906d1a52ebd80ec4
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 15:07:43 2021 +0100
+
+    add variable for "Hi there, I'm" text
+
+commit 60893fd3806453c4c194ad237f0d359f14f06373
+Author: Lutz Reinhardt <lr1980@users.noreply.github.com>
+Date:   Tue Dec 28 18:03:41 2021 +0100
+
+    add bootstrap js map because of browser warnings
+
+commit f279e15318144b36f695c73f90cbf277442743f6
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Dec 13 18:14:43 2021 +0530
+
+    Custom icons #30, #31
+
+commit a39edbe3531e137ad7ae3c328b28f46a97571ae7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 19 00:32:02 2021 +0530
+
+    #27
+
+commit 01c7caee0437835a8b506eabdeaa150be613983a
+Merge: d57b67b 72462e7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 5 21:06:11 2021 +0530
+
+    Merge pull request #28 from emze9/add-gitlab-icon
+    
+    add gitlab icon in V3
+    made by @emze9
+
+commit 72462e7cdb70113c3adcac56fc30a6c121331c26
+Author: Emile <emile2114@gmail.com>
+Date:   Thu Nov 4 13:13:51 2021 +0100
+
+    add gitlab icon
+
+commit d57b67b1c3ef26f1828b09a72b864a2bb16cc69e
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 25 18:41:22 2021 +0530
+
+    Update README.md
+
+commit e79a208a50140e48791012b60b3a234fdca1edc5
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 20 23:47:06 2021 +0530
+
+    Create stale.yml
+
+commit c6d520c6e748c22a77778d24d8850e04c70f6afd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 20 23:29:27 2021 +0530
+
+    #24
+
+commit 1f867d7f285669ec47180be5ba5a4780c95db831
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 7 10:22:13 2021 +0530
+
+    credit link replacement
+
+commit 49b2f8caefbd9bac6ff11a564e82673d42a5ff8f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 6 09:04:59 2021 +0530
+
+    change domain name
+
+commit 8de0ea7061040f96c43b21b8904a1729e85a6246
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 2 19:23:38 2021 +0530
+
+    Delete greetings.yml
+
+commit 75e1af431cb8c9d034f12b754ed971642c7a605c
+Merge: e28c89f ad8d0d7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 15 23:25:38 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit e28c89f69ff5b2f442e4547586595e287b7b6ced
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 15 23:19:56 2021 +0530
+
+    fixed  #23
+
+commit ad8d0d72516a650041d4b6f95741db598b5c0ac4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 15:51:29 2021 +0530
+
+    added google analytics for v3
+
+commit fa3cbbe11760cab34cb374e1e25e1cffd88cb08c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 15:49:17 2021 +0530
+
+    analytics removed from v3
+
+commit 87cf77e05ee03897ee80840a5d27ceab5fdd0de9
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Fri Aug 13 11:49:26 2021 +0530
+
+    Delete README.md
+
+commit b06f75c647dff27e11892547bb66e3853bd4485d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Wed Aug 11 10:26:51 2021 +0530
+
+    Update config.yaml
+
+commit 5456f5a34fb4f73a3488954b7bef8eb00f11afae
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 17:33:56 2021 +0530
+
+    Delete stale.yml
+
+commit fa91d1cdc171456ce40066791b389bb9c0385139
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 17:27:53 2021 +0530
+
+    Update README.md
+
+commit 1f74ee3a66cc86256c81557528c235c7894f93b1
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:06:16 2021 +0530
+
+    Delete FUNDING.yml
+
+commit e2625a0568315bf5701ce0cd90ba9d440223eb1c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:05:49 2021 +0530
+
+    Delete stale.yml
+
+commit 222e8b5b3f591e2becdda1d36f42c61f2aa06bcc
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:05:15 2021 +0530
+
+    Create stale.yml
+
+commit e25bbeba95c7cfc820a7dbb4af127a5b4a641543
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 10 00:01:31 2021 +0530
+
+    Create stale.yml
+
+commit 3ae63007137263282ed93cbde9b425708e773ed7
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:58:18 2021 +0530
+
+    Update README.md
+
+commit 207d5cc950fce3243dfdb74451afcc3e3f2af1fc
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:52:32 2021 +0530
+
+    Update README.md
+
+commit 325a2227cf98cfc017420fc13b009f199da95a0b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:36:00 2021 +0530
+
+    github pages fix
+
+commit 7d821860255b42370230b1150a2f33acd70132ee
+Merge: 47bc00e 76ed50f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:32:11 2021 +0530
+
+    Merge pull request #22 from gurusabarish/github-pages-setup
+    
+    GitHub pages setup
+
+commit 76ed50fbee9e339245957e681ac689d9ee1e1375
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:31:10 2021 +0530
+
+    Update config.yaml
+
+commit 80306f9034f98a5fff7687a9812f71421e682a0b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:29:04 2021 +0530
+
+    Update config.yaml
+
+commit c5de833cc69c58eff0e5e220881bcf6c6db0b7f8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:26:25 2021 +0530
+
+    test github pages with version 1
+
+commit ab6306c257530f21a4dcdf3a8c2ccfa3e0c9e218
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:23:38 2021 +0530
+
+    testing github pages with version 2
+
+commit 2226c6c5f0b7e472cb720d8cf29cb070ab4a5260
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 23:15:39 2021 +0530
+
+    github pages setup
+
+commit 47bc00e9d4b86cbb0f7a2c45f21f93f848800566
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 22:56:54 2021 +0530
+
+    Update config.yaml
+
+commit e6a364c6d1b7804128f649c775546ee2443ca1e1
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 9 22:50:01 2021 +0530
+
+    github demo page V3
+
+commit b1508e9f5d99a0abffe4d0cbb2214c53ca9429b0
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:10:30 2021 +0530
+
+    Delete autoapprove.yml
+
+commit a0fb32a23b7591ede5dbd63256e9ca245207979c
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:10:08 2021 +0530
+
+    Update issue templates
+
+commit ef131eaa719ebb96f06f713cee968edb9b6d9627
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:05:22 2021 +0530
+
+    Update theme.toml
+
+commit 562177b306c107f893af00c35059108223db02af
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 2 23:03:00 2021 +0530
+
+    Update README.md
+
+commit 2afd1c83050d904a331ec2d504b06d8aa921ddbc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jul 31 12:52:44 2021 +0530
+
+    Font change social share
+
+commit 1798378ead10804234b397916082d0dcc472d5cd
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Thu Jul 29 19:59:29 2021 +0530
+
+    Update footer.html
+
+commit 2b8c9f61d26984d81fa1c38bbe0bbe5934403cf2
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 10:19:10 2021 +0530
+
+    Update README.md
+
+commit f84180aa9f6f97fd7866d9b71aff89edf941de60
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:41:35 2021 +0530
+
+    Update README.md
+
+commit c05dffd26c3cfec8041dd3e0a84636cfb7c1568b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:41:01 2021 +0530
+
+    Delete _config.yml
+
+commit 71c0a1357b4526992d6a441e1fca594b47d6a489
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:37:43 2021 +0530
+
+    Set theme jekyll-theme-cayman
+
+commit 595d31005ee16dcb7a92efdb6bf368cff5b6bab0
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:35:17 2021 +0530
+
+    Create README.md
+
+commit 88b04bda730d702ab83f739711e40d375b4f465d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:33:54 2021 +0530
+
+    Update README.md
+
+commit 9d6f6f7877d96d39c30b1c7779c6870d69b7d9d8
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:25:11 2021 +0530
+
+    footer card spacing fix
+
+commit 6bbe6e4deceb160f2f557155197fdb204c5b6f05
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:23:22 2021 +0530
+
+    Update footer.html
+
+commit bcc7661125953324a329906af12b0c143d40c4ae
+Merge: 909e032 5d6c329
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:20:25 2021 +0530
+
+    netlify build fix
+
+commit 909e0323e0a3d77c638dcc6d8a38b839de524e92
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:14:26 2021 +0530
+
+    netlify build fix
+
+commit 5d6c329fabd3432632c5bcffba3a27f080bcc228
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:05:04 2021 +0530
+
+    build bug fix
+
+commit 93dda15903302b9c04e3f9d1ce2b3966b072d409
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 01:02:09 2021 +0530
+
+    Update achievements.html
+
+commit d40993214ff7463badad6d90d4e453c18d19409f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 00:58:31 2021 +0530
+
+    Update index.html
+
+commit 2a24836a2e9baccca5d24661c44693ca0d19a6dc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jul 25 00:44:53 2021 +0530
+
+    extra colors, 404 fix and some more
+
+commit fb8a760319301ba3f043f767efee3af58508c906
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 13 11:33:40 2021 +0530
+
+    Update README.md
+
+commit 5f47f9ecd5c6bccb17b4abf4fdc3c3658d0b17f5
+Merge: d5a7d34 6c37637
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 22:08:40 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit d5a7d34f2859bc14bdbb8dd1f4a44eef581965c2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 22:08:04 2021 +0530
+
+    added theme option in configuration
+
+commit 6c376376eb505a739ba93694cc9bc4ae5087e018
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 12:03:52 2021 +0530
+
+    Update README.md
+
+commit c9716d9a7341c8f781c29523d4dfcbee6acb5cac
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:41:28 2021 +0530
+
+    Update README.md
+
+commit 512a26e36e5844755ed49ac4dca2792320024c10
+Merge: 43d8d0a ac7a79f
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:33:10 2021 +0530
+
+    Merge pull request #19 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 43d8d0a0950a2a8a363c19f993d76bc9bbed42b3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Tue Jul 6 11:32:25 2021 +0530
+
+    Update LICENSE
+
+commit 75f6b7acfca0c087c75c750e6b07064b4c10c012
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jul 5 23:39:29 2021 +0530
+
+    theme file update
+
+commit ac7a79f0afbab7f4d40ccb45cd578ef254ae3368
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jul 5 17:55:58 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 242.84kb -> 213.32kb (12.16%)
+    
+    /images/tn.png -- 75.84kb -> 65.88kb (13.14%)
+    /images/screenshot.png -- 167.00kb -> 147.44kb (11.71%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit 5f8661643cd01ec97752f838e6746ed605d72d62
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jul 5 23:24:47 2021 +0530
+
+    new tn and screenshot
+
+commit 2c58f2e15fde011aaa0158e9d8f01787693c3c3d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 26 08:32:16 2021 +0530
+
+    Update config.yaml
+
+commit 5b5936c31dfe1c41c462706102a3d0cf85ea4d4f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 26 08:22:34 2021 +0530
+
+    Removed example site and added some content in website
+
+commit 5475e10ef1b1dfd3bd5190334498350e952404cc
+Merge: d4e24e2 00ea239
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 21:58:59 2021 +0530
+
+    Merge pull request #18 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 00ea2392242c6fe75921c281ff7043e55b0a8776
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jun 21 16:24:52 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 2,653.13kb -> 2,524.57kb (4.85%)
+    
+    /images/v2-demo.png -- 105.51kb -> 89.40kb (15.27%)
+    /images/v1-demo.png -- 224.16kb -> 190.78kb (14.89%)
+    /images/v3-demo.png -- 556.04kb -> 497.06kb (10.61%)
+    /static/webfonts/fa-regular-400.svg -- 141.32kb -> 139.15kb (1.54%)
+    /static/webfonts/fa-solid-900.svg -- 896.07kb -> 883.93kb (1.35%)
+    /static/webfonts/fa-brands-400.svg -- 730.02kb -> 724.26kb (0.79%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit d4e24e2634d00601d68fbd5b4fb81026ccacc3c8
+Merge: 51e118a 60767ed
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 21:54:19 2021 +0530
+
+    Merge pull request #17 from gurusabarish/dev
+    
+    Dev
+
+commit 60767edc93f08a24cee306842d06ffa41e6dae19
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 21 15:34:43 2021 +0530
+
+    dark mode
+
+commit fd2b79bc9865a222b6ff252a2bafa496ddb25ed2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 22:00:17 2021 +0530
+
+    darkmode initial commit
+
+commit 758e0f7ad24f7d96b9d6d1f5bac4c102768ff69a
+Merge: a5a500b 51e118a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 11:25:49 2021 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit a5a500ba9164331384f0ed98226adce87070527b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 17 11:25:30 2021 +0530
+
+    v3 light theme
+
+commit 51e118aa42781b6795d601b183c3725bba24510b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:42:09 2021 +0530
+
+    Create autoapprove.yml
+
+commit ea88b4e633186ffb194704e9a2b299bc231bf2c4
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:33:32 2021 +0530
+
+    Create greetings.yml
+
+commit f364a2a16c34bbeaf117d1fb38708ad2e45a4b5d
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:23:37 2021 +0530
+
+    Delete .mergify.yml
+
+commit 43366861bdab14387a9e63f8dedfd26208fa1370
+Merge: 081014d e44df55
+Author: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>
+Date:   Mon Jun 14 05:46:24 2021 +0000
+
+    Merge pull request #15 from gurusabarish/imgbot
+    
+    [ImgBot] Optimize images
+
+commit 081014d43df9246bfe476a14af5bca10272cb5ef
+Merge: c42245a 48dacec
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:13:43 2021 +0530
+
+    Merge pull request #16 from gurusabarish/mergify/gurusabarish/config-update
+    
+    Mergify: configuration update
+
+commit 48dacecaf416a6517803d595e5ad308cb1f9ef78
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 11:12:45 2021 +0530
+
+    Mergify: configuration update
+
+commit c42245ab74c03b170fd7ca1fa2d70b2e3cab0d2b
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 10:55:29 2021 +0530
+
+    Update README.md
+
+commit e44df5562259c8e4132e5bc835afd71aef42cff9
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Mon Jun 14 05:19:33 2021 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 988.21kb -> 893.26kb (9.61%)
+    
+    /images/tn.png -- 139.04kb -> 122.04kb (12.23%)
+    /images/screenshot.png -- 312.43kb -> 274.73kb (12.07%)
+    /exampleSite/static/images/project.jpg -- 268.37kb -> 248.25kb (7.5%)
+    /netlifysite/static/images/project.jpg -- 268.37kb -> 248.25kb (7.5%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+commit dc4988ce80ee1e7d729e2ed0eb93603cd6925ffe
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 01:27:39 2021 +0530
+
+    Update README.md
+
+commit 9ef2450335638d0064c22138647b8f9004fac574
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 00:54:58 2021 +0530
+
+    demos
+
+commit e29b979d57e728708e20bcc5ebf32141bcc2341a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Jun 14 00:51:00 2021 +0530
+
+    demos
+
+commit 05404689aa0d60ee8458ab0779cc107bb65cffb4
+Merge: 14d1648 69091d3
+Author: Guru Sabarish <gurusabarisha@gmail.com>
+Date:   Sun Jun 13 23:37:31 2021 +0530
+
+    Merge pull request #14 from gurusabarish/development
+    
+    v3 upgrade
+
+commit 69091d3c6a96368d1d153e147522f3bdfb72324d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Jun 13 23:31:04 2021 +0530
+
+    V3
+
+commit 9b47e835d41f511f648ca4c465ec96433aa88c5d
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 12 23:49:09 2021 +0530
+
+    basic single page
+
+commit 0cf404308ffa998c7126788897719f65a41aa466
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Jun 8 16:16:14 2021 +0530
+
+    list view
+
+commit 6fb96c3864fc67b5f1e999d1796e3c460865f9a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 5 11:49:11 2021 +0530
+
+    demo web for all vertions
+
+commit a856084d349b6daa1d9fd7d043e61561a0df83d2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jun 5 11:47:40 2021 +0530
+
+    demo web for all vertions
+
+commit 0d77e9d032256c337c5f4315868442ce1a39b211
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Jun 4 19:29:24 2021 +0530
+
+    loading icon on page loading
+
+commit 63454f7c314e53c634b2cf62cc5b487b236f1918
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Jun 3 14:13:19 2021 +0530
+
+    on scroll reveal
+
+commit e7426eb34add7106fe7d9633921a51d55f355619
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon May 17 12:10:06 2021 +0530
+
+    contact :sparkles:
+
+commit 54bcff5142899bc481af5787d6c2989c2d2433dd
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu May 13 22:48:06 2021 +0530
+
+    v3 development
+
+commit 14d16483beacae76f067e0cb9a501e5abea701ef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Apr 15 15:50:45 2021 +0530
+
+    Update config.yaml
+
+commit 53660d85fc6ddfc18b628236f3b0b783634c2264
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Apr 8 22:54:46 2021 +0530
+
+    remove about in navbar
+
+commit d01692063b11d3ea2aeb314540011d05473d7028
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 09:23:27 2021 +0530
+
+    added exampleSite
+
+commit 816afa6e683a2eea9d6a3ec12addf4a908c0ba1a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:30:30 2021 +0530
+
+    added blog content and readme update
+
+commit a538686d650d20b2b2387d25e47db54f955a7702
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:29:27 2021 +0530
+
+    added blog content and readme update
+
+commit 4fee8dbb83fb3c732e78dbb8fb2abc07d5507183
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Apr 4 00:18:55 2021 +0530
+
+    removed example site and fixed the recent post height
+
+commit 31ca80f69490adfc291f2edb63a94f84f1803c04
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 3 11:39:59 2021 +0530
+
+    added hyperlink in things-i-do and markdown support in description
+
+commit 679ae1b1a087a35787ce8d6c465a7255537449f3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Apr 3 00:40:10 2021 +0530
+
+    added social icons in top and table of centents in blog
+
+commit 17bd78c171cbfd8ac014febaf4332934b8140f46
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 20:41:59 2021 +0530
+
+    updated the config file
+
+commit 5cf6c5474b942bed4a4e2149dfda1aab88d796a3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 20:38:32 2021 +0530
+
+    Seperate netlify site
+
+commit 076e47e6124759560a71d4c70a54346b1ccccf87
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 19:53:29 2021 +0530
+
+    custom resume button name
+
+commit 4aa090c4569979f3a9a1a494ef23c2f915dc1a74
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Mar 31 18:48:02 2021 +0530
+
+    tweet button and recent posts remove option
+
+commit c5578135fe3aff7ee5f10a0f520348f96d82ca2a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 08:06:58 2021 +0530
+
+    404 page update
+
+commit 16685c012122d2e1fb1314d244ce348dff7bf749
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 07:56:31 2021 +0530
+
+    netlify deployment
+
+commit c29489775b2bd7d3932d59fdaa0e7e6d7487fbc0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Mar 20 07:43:47 2021 +0530
+
+    netlify deployment
+
+commit 252ec5277fe19673714f444791d8ec52cdb6f363
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 16 20:15:17 2021 +0530
+
+    theme.toml update
+
+commit 6cd2d850860d1170096a80c4a63471a36a1bec5a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Mar 16 20:07:32 2021 +0530
+
+    readme update
+
+commit 98ca5e1afab7c573db8101ff7ec5fe1ec9bc0bae
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Mar 15 13:10:58 2021 +0530
+
+    blog post mobile view update
+
+commit a19418481da555085082ad72f3429496514c080a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 22:39:38 2021 +0530
+
+    blog style update
+
+commit ea8fabe68e29215542f63aaebfdc539f3cf305db
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 01:46:40 2021 +0530
+
+    authour and date icon update
+
+commit bdfa43b9c18085b4c52c4c43d33395c109a3be0b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Mar 14 01:32:57 2021 +0530
+
+    version 2.10
+
+commit 49ed7008b886fdf9d4c03d21222ed8f327c1df07
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Jan 23 09:54:42 2021 +0530
+
+    blog layout update
+
+commit 40aa344d36178a561cd9a7a6ef93f4e941f840ae
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Dec 26 11:59:50 2020 +0530
+
+    Update config.yaml
+
+commit d587080f991668a194395b5026a76de0de3751b4
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Nov 27 20:44:50 2020 +0530
+
+    Update footer.html
+
+commit c18d6a1fd9b3a84fe40a58948a7ed2a25b91ef74
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Nov 27 20:38:13 2020 +0530
+
+    setup fontawesome, footer update
+
+commit 1f9957e1a92c894700830ca9ec557dcc540ffecd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Nov 7 11:01:32 2020 +0530
+
+    Update config.yaml
+
+commit 96a810d755a888e1bb1f3dc4090ce2af1d43279b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 29 22:42:28 2020 +0530
+
+    Update config.yaml
+
+commit 97029e59e628d01371c563485b0e3bf0d8d1c8db
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Tue Oct 27 11:22:37 2020 +0530
+
+    Update README.md
+
+commit 3ac0329f71c6da6b8b6eb03b74ab0989c8eb971f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 23:11:53 2020 +0530
+
+    Navbar and Breadcrumbs URL fix
+
+commit 4ecce560550f7b67be87bcefa4fb8b8593ac412f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 20:35:34 2020 +0530
+
+    Update README.md
+
+commit 544bfb587d9e234a4b66b634e6a6edef2395eb46
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 26 09:56:35 2020 +0530
+
+    website look and description
+
+commit 4c185424bded5945587d4c3535281a420c37db76
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 23:30:15 2020 +0530
+
+    update
+
+commit 65f21f3f57a6cd6b8ef7884a2d02e6b63434ae80
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:57:47 2020 +0530
+
+    Delete main.yml
+
+commit 71861099bf1a2d1b8a0a6aea5ea6e80d02b35dfa
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:44:55 2020 +0530
+
+    Update main.yml
+
+commit 607e9c5d42dc05baa2db3de2a3f400bf4b5cac29
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:26:16 2020 +0530
+
+    Update main.yml
+
+commit 1aa68791d728968a3c2b9826a1d4600c552f607d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:24:46 2020 +0530
+
+    Update main.yml
+
+commit 345341dd3bb36d283291603c4aa1a834816b1478
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:19:26 2020 +0530
+
+    Update and rename hugo.yml to main.yml
+
+commit 037ec98b51ee6f789f41ca13c0a5855b511c3fac
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 10:00:57 2020 +0530
+
+    Create hugo.yml
+
+commit 6d50a08863a04f310826c13e048303352c3183e7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:20:42 2020 +0530
+
+    Update README.md
+
+commit f8a436d5c330e2649e1c16607ebdd270f7defda9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:14:33 2020 +0530
+
+    Update config.yaml
+
+commit 1b839c8803f45fb537656d947f0da11c812012af
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:05:29 2020 +0530
+
+    Create netlify.toml
+
+commit e533f2343b9ad6ba60d6e14bd1e69d3f2db4fda5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 24 01:01:41 2020 +0530
+
+    update
+
+commit ecbb186f721ebdeb3ebcaed85507239c7a3f1f67
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Oct 21 12:28:33 2020 +0530
+
+    Update theme.toml
+
+commit 9d0a34a1b8fa3c15e2748fb1457f4c0c8925ac1b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 23:14:23 2020 +0530
+
+    Create .gitignore
+
+commit 5a26fe98e02171f91a93ed936e3db3938441578a
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 23:10:15 2020 +0530
+
+    to get a basic
+
+commit f83ec679dad39c784b40b60ebe5b34e030a673d1
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 19 07:57:40 2020 +0530
+
+    Update README.md
+
+commit 0c415f9fccfaa9c040fc7a9a633ba2a7c699f9d7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 22:37:37 2020 +0530
+
+    Update README.md
+
+commit 56494102bdd1e2f4a657c28f374a4e18b6d1dd17
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 22:35:46 2020 +0530
+
+    Update README.md
+
+commit 2f8bff817cd2ce28750260faa198f02a8d6301b9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 10:54:27 2020 +0530
+
+    Update README.md
+
+commit 1ad442ec6799ea286a31d80ead304ee24bfcb11f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 18 10:40:09 2020 +0530
+
+    Update README.md
+
+commit f1cda0d4e7728296973b32385bc01069645288aa
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 19:16:43 2020 +0530
+
+    Update README.md
+
+commit e0d6e36e14ada6eb775d96eba782730b8a81c607
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 15:43:31 2020 +0530
+
+    line2 bug fix
+
+commit 748a8e63b246dcff8f5d781e79490ac4beea016a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 14:50:36 2020 +0530
+
+    Update README.md
+
+commit 01f30297bde12de51603b520ae8f901721ca8677
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 14:46:49 2020 +0530
+
+    Update README.md
+
+commit 3eec48770f3142cea08c54cbd12c2dc22668ddef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 10:47:02 2020 +0530
+
+    Update README.md
+
+commit 38e622a8c36ec7b19e0731fc6266fd19b0e1724d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 10:36:59 2020 +0530
+
+    Update README.md
+
+commit 5af2b5a1b2a5bfe9fcd9891fde5980deabe5a48a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:05:51 2020 +0530
+
+    Update theme.toml
+
+commit c4d547c72840a674aac708d57844c8c09ea1a2e0
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:03:51 2020 +0530
+
+    Update README.md
+
+commit 272538234838305767912d7b9d77ae3cd49e3c3d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:02:56 2020 +0530
+
+    Update README.md
+
+commit 8a2ff2bdce6c73714a6bbe703232da31bbc9c157
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 09:01:38 2020 +0530
+
+    Update README.md
+
+commit 79f9f5d8020a609c041215646c5f610d2657633b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:45:48 2020 +0530
+
+    100 performance
+
+commit ac5b48295266803da5d61adcf844885b85a3d82a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:44:18 2020 +0530
+
+    Update README.md
+
+commit a10ae3a5e3a022644066bac68fdd45640700d6d0
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:37:43 2020 +0530
+
+    description update
+
+commit 4eb43528ac3f65e64dd608d5449ba16892ad1a2e
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:19:02 2020 +0530
+
+    Update README.md
+
+commit aed0e699b6c90185cdf072e574c233930455e3f9
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 08:17:56 2020 +0530
+
+    Update README.md
+
+commit 1948fcbaa4b3534f8bcf6153e56fee7037f71ddf
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 17 00:01:06 2020 +0530
+
+    Update README.md
+
+commit fb55563b3396d7c9fe073ef5b992d9e84bf3f907
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 16 23:47:58 2020 +0530
+
+    V2.00 upgrade
+
+commit ca269b37bf5c149f73b9ea507ce7dc40ae3d810d
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Oct 14 11:17:34 2020 +0530
+
+    project background color update
+
+commit c91f4b5a212937694bf30d6a2c36d8e3489745bb
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Tue Oct 13 07:08:48 2020 +0530
+
+    Update README.md
+
+commit 5224fc0efba8be5818017095e7ff0086d91872fa
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 22:42:39 2020 +0530
+
+    performance update
+
+commit 503625575bf15eee7521915297b40946d00646b5
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 09:38:05 2020 +0530
+
+    Update README.md
+
+commit 9255ec161a0bdfacbc2df4527ef91bd3a22cb838
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 09:26:15 2020 +0530
+
+    update for performance
+
+commit a7a01c27887cd0432fc29fd6a3fe7b03f8e4d6ae
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 06:35:19 2020 +0530
+
+    Update FUNDING.yml
+
+commit 153290a01aeab89a483b3a6fcd66c92d4bc8ac36
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Oct 12 06:33:15 2020 +0530
+
+    Create FUNDING.yml
+
+commit ece0b02e3992bfbbbf59a25d36f4a752141b1973
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 20:55:43 2020 +0530
+
+    title tag
+
+commit 7599139b45bbedc25b24812a69b5599ad131b1bd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 20:47:38 2020 +0530
+
+    Update README.md
+
+commit 6be06455440cd3bb2dfb23e274f6da6cd32c27fd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Oct 11 19:06:29 2020 +0530
+
+    Update config.yaml
+
+commit a3050c530426f7bb63822d2b3a38bcdcb667d5fb
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:30:19 2020 +0530
+
+    Update README.md
+
+commit a58dfdae1bd70c9b36637d979a7f1c1a71630cbb
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:28:32 2020 +0530
+
+    background fix
+
+commit a66c746f490cec13406163527271a6a8665a3b51
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 23:26:47 2020 +0530
+
+    background fix
+
+commit 36106b5dda7eb5d9328bf46323c5603b23be0384
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:10:04 2020 +0530
+
+    js files
+
+commit 73ccddcf9655f9629bc0ac890366ff8d17591239
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:09:16 2020 +0530
+
+    Delete popper.min.js
+
+commit 318ed465ef60b2b935ed91979e48ebbfb9d018bf
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:09:01 2020 +0530
+
+    Delete jquery.slim.min.js
+
+commit e48af52b7d39adebc420ce9f0b20fc365a8c2c05
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:08:43 2020 +0530
+
+    Delete bootstrap.min.js
+
+commit 0d7dab35231e31a46898f08b132eb50a90cf61df
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:07:42 2020 +0530
+
+    Update README.md
+
+commit fae99267972ef7dd5a285b0513c30b9d77413e9a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:06:31 2020 +0530
+
+    exampleSite
+
+commit 9a911d2a895ebb9e48267bac89471e017ab16f32
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Oct 10 00:03:17 2020 +0530
+
+    Create config.yaml
+
+commit 83b0547fb1a27f5e2309befc2b9014dc7551d471
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:58:40 2020 +0530
+
+    Delete config.yaml
+
+commit 6ad67c46c5fe7e12d4c308b91788deddda784823
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:58:23 2020 +0530
+
+    Delete New Text Document.txt
+
+commit 54b1be36f86d08a47604873b16e41df99621a25b
+Merge: 00cf92f b960d79
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:57:27 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit 00cf92f1f0695e1fdde41e5892afa6ec22d6bafc
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:57:00 2020 +0530
+
+    user friendly
+
+commit b960d79df08b8d197f620f5f29545934d9712f6e
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:55:11 2020 +0530
+
+    Add files via upload
+
+commit d344d83f01a518e730036af110e6f7b640c3b188
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Oct 9 23:42:07 2020 +0530
+
+    user friendly
+
+commit 8379758b6e7892a65656e6bb9132a7024e7223e8
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 1 23:02:38 2020 +0530
+
+    Update single.html
+
+commit 1fa593c03048ac7a2c2b0a662ac1e03a878fe7ef
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Thu Oct 1 08:44:08 2020 +0530
+
+    Update single.html
+
+commit 06aaf3b013566dcf0661c74b60eb1c9c997dde17
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Sep 30 22:49:02 2020 +0530
+
+    code style update
+
+commit ead5bbc69541f0e28dc743315dd8c1951989db8f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Wed Sep 30 07:39:34 2020 +0530
+
+    h1,h2 update
+
+commit 40110a5082d34b3e9f23a384eeb5918ce03c1cc0
+Merge: e3e1117 ace6b0e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:08:14 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit e3e1117465afc13adacc30f73ab3c6076d3012d0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:07:41 2020 +0530
+
+    breadcrumb update
+
+commit b3f0329bffc8544c8fd8524bc9c2c74b8feec184
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 29 18:04:54 2020 +0530
+
+    breadcrumb update
+
+commit ace6b0ecff535acda6722a123b29d765dc709dfc
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 21:11:26 2020 +0530
+
+    Update README.md
+
+commit 77a92caa4d7e52a412c9bf52e3599d9e67110b3b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 21:09:05 2020 +0530
+
+    Update README.md
+
+commit 42a6f233241784e394c30d6e39f20e4722f53a05
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 18:21:01 2020 +0530
+
+    Update README.md
+
+commit df47f7a9110d22fcca14ed8c9a08a79d4511235a
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 18:17:48 2020 +0530
+
+    performance
+
+commit 23c18550cc3ce93a8ceab6465f321336a3379cf7
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:30:03 2020 +0530
+
+    Update config.yaml
+
+commit 8d74d399633fc2964ecb4c474be5e5ccc8efcdbd
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:24:51 2020 +0530
+
+    Update footer.html
+
+commit 88d9ee644889c9012433f325b50a825c3bff2874
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:24:05 2020 +0530
+
+    Update config.yaml
+
+commit f4a654428ea159da0f0a07738bf0049740d06d2f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:20:05 2020 +0530
+
+    Update config.yaml
+
+commit 1d9c819ddb65f461fce24b24e9e79aa1d70ed6b6
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 17:05:07 2020 +0530
+
+    update
+
+commit bdce5b0bce974bf654da5b4abe097a50af7f6395
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 28 12:18:26 2020 +0530
+
+    update
+
+commit 9ccb3e1193f14f974210528f1f933f1bc8989326
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 26 08:35:54 2020 +0530
+
+    Update README.md
+
+commit b741838b79c3d116b2bb26d8b10a79011be85690
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 26 08:34:57 2020 +0530
+
+    Update README.md
+
+commit 337803791e96152f57118bf863e06b87c6e5c1b7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 25 11:47:58 2020 +0530
+
+    blog update
+
+commit 47e52a18f8ab3fdb62c34e93da0afc3a2a434db5
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 24 15:20:54 2020 +0530
+
+    screenshot
+
+commit 7f4cac91ecec47d2a1134a7d840b1390c1d22b9c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 24 11:58:02 2020 +0530
+
+    blog
+
+commit b4681b58569ff871c18a88d285766d8b8f06e87e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 23 13:29:44 2020 +0530
+
+    google analytics and disqus
+
+commit b4294b0cc9cdc40372af3d332ac6121637b09c1e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 22 13:32:47 2020 +0530
+
+    theme
+
+commit 083a33b29c41ba39047a4ee4bec5873b9db209c1
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 20 13:20:30 2020 +0530
+
+    theme update
+
+commit 311d26eb51282e3cb922f11d99afd660d0d8a7d1
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:25:42 2020 +0530
+
+    url update
+
+commit 20afe95965b37c3b4660719d419677ea3337d99f
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:24:03 2020 +0530
+
+    Update README.md
+
+commit 1239f17b7e96f63d9e706e8e62903317e9c7e459
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 13:02:55 2020 +0530
+
+    screenshot
+
+commit fe7e28bd3fa8ebad2507f1c9d31a3771d7eb2a5b
+Merge: faa221b 3ae9331
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 12:36:54 2020 +0530
+
+    Merge branch 'master' of https://github.com/gurusabarish/hugo-profile
+
+commit faa221b749990a86adb5d87a9a35b734fd3a2b70
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Sep 19 12:26:55 2020 +0530
+
+    Hugo-profile
+
+commit 3ae93318bb062b7782e34977ccaa48b53f57b1b3
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 18:30:19 2020 +0530
+
+    add readme file
+
+commit 131a0982612727d318d04ac37f99a382d48af631
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 18:03:21 2020 +0530
+
+    preview
+
+commit f0f30d65097641767bda895f457915670b9d2102
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Sep 13 17:43:09 2020 +0530
+
+    hugo-profile theme
+
+commit e58dd23a1dd1bebe86da7b63b8490419080296e0
+Merge: 202079b c18a50b
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 12 22:34:29 2020 +0530
+
+    Merge pull request #2 from gurusabarish/add-license-1
+    
+    Create LICENSE
+
+commit c18a50b4388fd390059d624c0c9b1bd61ea96e85
+Author: GURU SABARISH <gurusabarisha@gmail.com>
+Date:   Sat Sep 12 22:34:08 2020 +0530
+
+    Create LICENSE
+
+commit 202079b9b187d496e4bc7cce14c9596751d3ce6c
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 10 08:29:52 2020 +0530
+
+    projects
+
+commit c46f42e09e1ec3ef70b801a2fd16d90287c7dfa4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Sep 8 20:22:06 2020 +0530
+
+    skills
+
+commit 4dd1bd54d2378a915677852ae723a33bb504727f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 7 23:25:48 2020 +0530
+
+    about
+
+commit 95c28df2d79af40e4373ce096381f2493d4df4ad
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Sep 7 22:43:04 2020 +0530
+
+    about
+
+commit 5856e45b4b77cbcd58b241ed3781da9b50db8762
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 4 19:41:11 2020 +0530
+
+    Do things
+
+commit 11c4ca12ac72b4d6723a73ba3c203eb4809b7b15
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Fri Sep 4 12:28:09 2020 +0530
+
+    about
+
+commit 4e6c6c48997caed57e1961408fff0a0bec1fb8e4
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Sep 3 11:59:58 2020 +0530
+
+    home
+
+commit 1551064616d164c3b0cd9ccbcad4f81210e0a027
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 20:18:58 2020 +0530
+
+    home
+
+commit 19d62ea049f9a97ba1c2e9d949b5ef1965fc5917
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 12:54:45 2020 +0530
+
+    home update
+
+commit cfc3d6c0f362e0ae9269027e6f291a995cac94aa
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Sep 2 10:53:32 2020 +0530
+
+    home update
+
+commit 21c4c15b6557455b8c3f110c7a251628372907f0
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Mon Aug 31 23:51:20 2020 +0530
+
+    update
+
+commit 72e49d4efaf21b2f5d0da9cc6ae103f9e5eb8d6e
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 30 00:41:07 2020 +0530
+
+    favicon
+
+commit 2ee892e5d3e4a0ea17e3ba48dfde7ed0977592a2
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sat Aug 29 23:05:52 2020 +0530
+
+    navbar update
+
+commit 20888a56e0307a2bfaeec2249b10b7e502a2b43f
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Wed Aug 26 13:11:57 2020 +0530
+
+    update
+
+commit 98b3e9eb2026b88e9d8d2fbf439d9bebf607836b
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Thu Aug 20 13:39:09 2020 +0530
+
+    preview image update
+
+commit 4b68507a035d43131a530c54e96c9d01a9b5abe7
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Tue Aug 18 13:03:32 2020 +0530
+
+    change in css file
+
+commit bf5d3b5db438fbaca1240f42418e64b7218aa1e3
+Author: gurusabarish <gurusabarisha@gmail.com>
+Date:   Sun Aug 16 12:51:49 2020 +0530
+
+    First one
